@@ -1,0 +1,4426 @@
+fileFormatVersion: 2
+guid: 1f5baf90a4134584fb8fe8a700d638df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 243331151503844958
+    second: pokemon 1_0
+  - first:
+      213: -7681670105305088998
+    second: pokemon 1_1
+  - first:
+      213: 233133136226881498
+    second: pokemon 1_2
+  - first:
+      213: 8336003229536274788
+    second: pokemon 1_3
+  - first:
+      213: 8308651212542852473
+    second: pokemon 1_4
+  - first:
+      213: -3444367583968758649
+    second: pokemon 1_5
+  - first:
+      213: -2181969196525945496
+    second: pokemon 1_6
+  - first:
+      213: -3130355353422816666
+    second: pokemon 1_7
+  - first:
+      213: -8873836057528073110
+    second: pokemon 1_8
+  - first:
+      213: 361254123108048791
+    second: pokemon 1_9
+  - first:
+      213: -7018907390731747529
+    second: pokemon 1_10
+  - first:
+      213: -4077221135950800410
+    second: pokemon 1_11
+  - first:
+      213: 6319293464137041403
+    second: pokemon 1_12
+  - first:
+      213: -4794571323695841555
+    second: pokemon 1_13
+  - first:
+      213: 4613339262843550137
+    second: pokemon 1_14
+  - first:
+      213: 1647126520269627817
+    second: pokemon 1_15
+  - first:
+      213: -5992051681579016721
+    second: pokemon 1_16
+  - first:
+      213: 6048665036948236143
+    second: pokemon 1_17
+  - first:
+      213: -3968725935720830231
+    second: pokemon 1_18
+  - first:
+      213: 9169489372400259814
+    second: pokemon 1_19
+  - first:
+      213: -1623913744340885462
+    second: pokemon 1_20
+  - first:
+      213: 6537690932320206827
+    second: pokemon 1_21
+  - first:
+      213: -6987291814944179553
+    second: pokemon 1_22
+  - first:
+      213: -4297351705536020679
+    second: pokemon 1_23
+  - first:
+      213: 3437572239725700095
+    second: pokemon 1_24
+  - first:
+      213: -2380647904588774695
+    second: pokemon 1_25
+  - first:
+      213: -7991766914061041512
+    second: pokemon 1_26
+  - first:
+      213: -359426355411132339
+    second: pokemon 1_27
+  - first:
+      213: -2764815603308572835
+    second: pokemon 1_28
+  - first:
+      213: 6930967946523811458
+    second: pokemon 1_29
+  - first:
+      213: 1906475939926419880
+    second: pokemon 1_30
+  - first:
+      213: -2564740488381738452
+    second: pokemon 1_31
+  - first:
+      213: -2847669365526530306
+    second: pokemon 1_32
+  - first:
+      213: -6994043910070859740
+    second: pokemon 1_33
+  - first:
+      213: -1722911182073413073
+    second: pokemon 1_34
+  - first:
+      213: -6055610339362666661
+    second: pokemon 1_35
+  - first:
+      213: -6838528806037344681
+    second: pokemon 1_36
+  - first:
+      213: -2714695367192870045
+    second: pokemon 1_37
+  - first:
+      213: 3368893859882339045
+    second: pokemon 1_38
+  - first:
+      213: -5024060555092372720
+    second: pokemon 1_39
+  - first:
+      213: -7365666197765421986
+    second: pokemon 1_40
+  - first:
+      213: 1659388256290091585
+    second: pokemon 1_41
+  - first:
+      213: -1198174436756317759
+    second: pokemon 1_42
+  - first:
+      213: -8396582829812390991
+    second: pokemon 1_43
+  - first:
+      213: -3413669821318805554
+    second: pokemon 1_44
+  - first:
+      213: 5448879920593902895
+    second: pokemon 1_45
+  - first:
+      213: 5574187304387302049
+    second: pokemon 1_46
+  - first:
+      213: 7431672765738511239
+    second: pokemon 1_47
+  - first:
+      213: -3683007308381368579
+    second: pokemon 1_48
+  - first:
+      213: -7705765690932095015
+    second: pokemon 1_49
+  - first:
+      213: -5618745015655787852
+    second: pokemon 1_50
+  - first:
+      213: 3512649190590182853
+    second: pokemon 1_51
+  - first:
+      213: -2896513214561724090
+    second: pokemon 1_52
+  - first:
+      213: -5488900443467271044
+    second: pokemon 1_53
+  - first:
+      213: 7762518236854918516
+    second: pokemon 1_54
+  - first:
+      213: -1999825373484581137
+    second: pokemon 1_55
+  - first:
+      213: -4460073785261572444
+    second: pokemon 1_56
+  - first:
+      213: 777495176799503417
+    second: pokemon 1_57
+  - first:
+      213: -3000270981740271503
+    second: pokemon 1_58
+  - first:
+      213: -5437675975071330900
+    second: pokemon 1_59
+  - first:
+      213: -6477577471679058063
+    second: pokemon 1_60
+  - first:
+      213: -1723744525403401222
+    second: pokemon 1_61
+  - first:
+      213: -1852259665473152985
+    second: pokemon 1_62
+  - first:
+      213: -7489323108248407630
+    second: pokemon 1_63
+  - first:
+      213: 5025947948769481897
+    second: pokemon 1_64
+  - first:
+      213: -4064383015604557912
+    second: pokemon 1_65
+  - first:
+      213: 7934853956382080466
+    second: pokemon 1_66
+  - first:
+      213: -295708607060197448
+    second: pokemon 1_67
+  - first:
+      213: 133121700810621565
+    second: pokemon 1_68
+  - first:
+      213: -8359488771115586869
+    second: pokemon 1_69
+  - first:
+      213: 882137831950189208
+    second: pokemon 1_70
+  - first:
+      213: 595586507452029688
+    second: pokemon 1_71
+  - first:
+      213: 5413350018543389396
+    second: pokemon 1_72
+  - first:
+      213: 1176923679925180897
+    second: pokemon 1_73
+  - first:
+      213: 1852859551346487077
+    second: pokemon 1_74
+  - first:
+      213: -1641396239308384540
+    second: pokemon 1_75
+  - first:
+      213: 725625495132868775
+    second: pokemon 1_76
+  - first:
+      213: -8714193669673589791
+    second: pokemon 1_77
+  - first:
+      213: 1871412471803950816
+    second: pokemon 1_78
+  - first:
+      213: -4996068310021039627
+    second: pokemon 1_79
+  - first:
+      213: 5606150132590984553
+    second: pokemon 1_80
+  - first:
+      213: 8985836434208769146
+    second: pokemon 1_81
+  - first:
+      213: 823668576153122375
+    second: pokemon 1_82
+  - first:
+      213: 5257858505232573232
+    second: pokemon 1_83
+  - first:
+      213: -7186969269785163886
+    second: pokemon 1_84
+  - first:
+      213: 8480610394603869544
+    second: pokemon 1_85
+  - first:
+      213: -6533375314918578982
+    second: pokemon 1_86
+  - first:
+      213: -3210314302960013159
+    second: pokemon 1_87
+  - first:
+      213: 3013794993195138669
+    second: pokemon 1_88
+  - first:
+      213: 1392308417814561476
+    second: pokemon 1_89
+  - first:
+      213: 6634057794124538508
+    second: pokemon 1_90
+  - first:
+      213: -7009438923567169171
+    second: pokemon 1_91
+  - first:
+      213: -4245348673777929324
+    second: pokemon 1_92
+  - first:
+      213: 925468693476756478
+    second: pokemon 1_93
+  - first:
+      213: -7172638949436068700
+    second: pokemon 1_94
+  - first:
+      213: 2822145919872828025
+    second: pokemon 1_95
+  - first:
+      213: -7784681949113392009
+    second: pokemon 1_96
+  - first:
+      213: -6244736546817165712
+    second: pokemon 1_97
+  - first:
+      213: -7724420880475316344
+    second: pokemon 1_98
+  - first:
+      213: -5598396251656232177
+    second: pokemon 1_99
+  - first:
+      213: 5314056269916240522
+    second: pokemon 1_100
+  - first:
+      213: 7012356011457380574
+    second: pokemon 1_101
+  - first:
+      213: 8693013902400365050
+    second: pokemon 1_102
+  - first:
+      213: 8001141902116500718
+    second: pokemon 1_103
+  - first:
+      213: -6781702654055634151
+    second: pokemon 1_104
+  - first:
+      213: -3047340627151333525
+    second: pokemon 1_105
+  - first:
+      213: 2817323182912678886
+    second: pokemon 1_106
+  - first:
+      213: 1153177618532992366
+    second: pokemon 1_107
+  - first:
+      213: 1955388596158680018
+    second: pokemon 1_108
+  - first:
+      213: -6318436821922862232
+    second: pokemon 1_109
+  - first:
+      213: 2475453391404750874
+    second: pokemon 1_110
+  - first:
+      213: 6080707667318968609
+    second: pokemon 1_111
+  - first:
+      213: 5477174166191974644
+    second: pokemon 1_112
+  - first:
+      213: 8172396106202640294
+    second: pokemon 1_113
+  - first:
+      213: 2147290928763459952
+    second: pokemon 1_114
+  - first:
+      213: 8235139641900378982
+    second: pokemon 1_115
+  - first:
+      213: -7498754509879519488
+    second: pokemon 1_116
+  - first:
+      213: 3403483052809844329
+    second: pokemon 1_117
+  - first:
+      213: 932243410994925011
+    second: pokemon 1_118
+  - first:
+      213: 3755651353874953702
+    second: pokemon 1_119
+  - first:
+      213: -1587502357857907244
+    second: pokemon 1_120
+  - first:
+      213: 1434540865303873863
+    second: pokemon 1_121
+  - first:
+      213: -7289028154322010158
+    second: pokemon 1_122
+  - first:
+      213: 6671524541189857981
+    second: pokemon 1_123
+  - first:
+      213: 1656896556716377322
+    second: pokemon 1_124
+  - first:
+      213: -3564966451736087903
+    second: pokemon 1_125
+  - first:
+      213: -9144336274964471157
+    second: pokemon 1_126
+  - first:
+      213: -9002157473835501329
+    second: pokemon 1_127
+  - first:
+      213: 471907812308438188
+    second: pokemon 1_128
+  - first:
+      213: -2734385794864275678
+    second: pokemon 1_129
+  - first:
+      213: -123966569231040551
+    second: pokemon 1_130
+  - first:
+      213: 9159793986907630359
+    second: pokemon 1_131
+  - first:
+      213: -5530658399196157745
+    second: pokemon 1_132
+  - first:
+      213: -7936626432238109209
+    second: pokemon 1_133
+  - first:
+      213: -6538110512625558931
+    second: pokemon 1_134
+  - first:
+      213: -5179935922193300658
+    second: pokemon 1_135
+  - first:
+      213: -823389185094526821
+    second: pokemon 1_136
+  - first:
+      213: 6275242179843812949
+    second: pokemon 1_137
+  - first:
+      213: 7603124420642040760
+    second: pokemon 1_138
+  - first:
+      213: -691060141669191747
+    second: pokemon 1_139
+  - first:
+      213: -3186805530035519461
+    second: pokemon 1_140
+  - first:
+      213: -3198235993295254245
+    second: pokemon 1_141
+  - first:
+      213: 7724465826402257486
+    second: pokemon 1_142
+  - first:
+      213: -8824088264065699992
+    second: pokemon 1_143
+  - first:
+      213: -6847485630181928126
+    second: pokemon 1_144
+  - first:
+      213: 6149725817026800453
+    second: pokemon 1_145
+  - first:
+      213: -6280730456387502528
+    second: pokemon 1_146
+  - first:
+      213: 420959608306929969
+    second: pokemon 1_147
+  - first:
+      213: 8980979987687572837
+    second: pokemon 1_148
+  - first:
+      213: 9079975002836192748
+    second: pokemon 1_149
+  - first:
+      213: 1208563751495493317
+    second: pokemon 1_150
+  - first:
+      213: -1077005153893389514
+    second: pokemon 1_151
+  - first:
+      213: -1584310016012158665
+    second: pokemon 1_152
+  - first:
+      213: 4837389033375795550
+    second: pokemon 1_153
+  - first:
+      213: -1109785726884345107
+    second: pokemon 1_154
+  - first:
+      213: -5867999715522309601
+    second: pokemon 1_155
+  - first:
+      213: -8121735845327574620
+    second: pokemon 1_156
+  - first:
+      213: -6751049112757752568
+    second: pokemon 1_157
+  - first:
+      213: -2025272430412800789
+    second: pokemon 1_158
+  - first:
+      213: 488780506610469188
+    second: pokemon 1_159
+  - first:
+      213: -3667889239616337276
+    second: pokemon 1_0
+  - first:
+      213: 7617491958216038976
+    second: pokemon 1_1
+  - first:
+      213: 3964300903377245649
+    second: pokemon 1_2
+  - first:
+      213: 9041675039283985571
+    second: pokemon 1_3
+  - first:
+      213: 9202034328314603746
+    second: pokemon 1_4
+  - first:
+      213: 4979656716000799313
+    second: pokemon 1_5
+  - first:
+      213: -1871605073714605598
+    second: pokemon 1_6
+  - first:
+      213: -1777138506371165200
+    second: pokemon 1_7
+  - first:
+      213: -7874066292612062108
+    second: pokemon 1_8
+  - first:
+      213: 3725302801042358967
+    second: pokemon 1_9
+  - first:
+      213: 5303932297335008289
+    second: pokemon 1_10
+  - first:
+      213: 3654083441123777323
+    second: pokemon 1_11
+  - first:
+      213: -513063053907396456
+    second: pokemon 1_12
+  - first:
+      213: 3441127538099970101
+    second: pokemon 1_13
+  - first:
+      213: 4949691305144810688
+    second: pokemon 1_14
+  - first:
+      213: 6616710236657490654
+    second: pokemon 1_15
+  - first:
+      213: -1306952542874181349
+    second: pokemon 1_16
+  - first:
+      213: -4690277095463094215
+    second: pokemon 1_17
+  - first:
+      213: -473457250782277236
+    second: pokemon 1_18
+  - first:
+      213: 4239703294590068501
+    second: pokemon 1_19
+  - first:
+      213: -4021771285703698206
+    second: pokemon 1_20
+  - first:
+      213: -6003788482742208418
+    second: pokemon 1_21
+  - first:
+      213: 4051988700638785359
+    second: pokemon 1_22
+  - first:
+      213: 1937546100255575871
+    second: pokemon 1_23
+  - first:
+      213: 1720187097405498950
+    second: pokemon 1_24
+  - first:
+      213: 5172870696560672098
+    second: pokemon 1_25
+  - first:
+      213: 7148728917695866507
+    second: pokemon 1_26
+  - first:
+      213: 2270033080013746876
+    second: pokemon 1_27
+  - first:
+      213: -5894165094651313598
+    second: pokemon 1_28
+  - first:
+      213: 3518290532886733520
+    second: pokemon 1_29
+  - first:
+      213: 8017675248912925273
+    second: pokemon 1_30
+  - first:
+      213: -5276982780252857389
+    second: pokemon 1_31
+  - first:
+      213: -7523629807598400819
+    second: pokemon 1_32
+  - first:
+      213: -7064303654831619637
+    second: pokemon 1_33
+  - first:
+      213: -701436253612108318
+    second: pokemon 1_34
+  - first:
+      213: -7455784628783211284
+    second: pokemon 1_35
+  - first:
+      213: 6613650179141685777
+    second: pokemon 1_36
+  - first:
+      213: -7316542233924623646
+    second: pokemon 1_37
+  - first:
+      213: 7412747163066221388
+    second: pokemon 1_38
+  - first:
+      213: -352165254513080537
+    second: pokemon 1_39
+  - first:
+      213: -5102741233988287952
+    second: pokemon 1_40
+  - first:
+      213: 8757714803916885479
+    second: pokemon 1_41
+  - first:
+      213: 5610260869347489910
+    second: pokemon 1_42
+  - first:
+      213: -4000522922613740032
+    second: pokemon 1_43
+  - first:
+      213: 3329259724601013857
+    second: pokemon 1_44
+  - first:
+      213: -6073894214577866923
+    second: pokemon 1_45
+  - first:
+      213: 7053302017571562073
+    second: pokemon 1_46
+  - first:
+      213: 2874797195858691495
+    second: pokemon 1_47
+  - first:
+      213: -187711391661842463
+    second: pokemon 1_48
+  - first:
+      213: 1407768661058302324
+    second: pokemon 1_49
+  - first:
+      213: 3756996381377558350
+    second: pokemon 1_50
+  - first:
+      213: 4967824127039965736
+    second: pokemon 1_51
+  - first:
+      213: 3404759921272070167
+    second: pokemon 1_52
+  - first:
+      213: -8818063455019459455
+    second: pokemon 1_53
+  - first:
+      213: -8367106987328620138
+    second: pokemon 1_54
+  - first:
+      213: 8529018837680855920
+    second: pokemon 1_55
+  - first:
+      213: -7081125785113100432
+    second: pokemon 1_56
+  - first:
+      213: 7240897973206824084
+    second: pokemon 1_57
+  - first:
+      213: -1770632610948250608
+    second: pokemon 1_58
+  - first:
+      213: -5422876540980076002
+    second: pokemon 1_59
+  - first:
+      213: -5003340443261074818
+    second: pokemon 1_60
+  - first:
+      213: 1889879191432076394
+    second: pokemon 1_61
+  - first:
+      213: 1453219804522727089
+    second: pokemon 1_62
+  - first:
+      213: 3542398728388909181
+    second: pokemon 1_63
+  - first:
+      213: -3051152252881533474
+    second: pokemon 1_64
+  - first:
+      213: -7134517356873102725
+    second: pokemon 1_65
+  - first:
+      213: 4406667711358114734
+    second: pokemon 1_66
+  - first:
+      213: -404172729741139481
+    second: pokemon 1_67
+  - first:
+      213: 3059788181522889858
+    second: pokemon 1_68
+  - first:
+      213: -15852516296319606
+    second: pokemon 1_69
+  - first:
+      213: 7825673858100587472
+    second: pokemon 1_70
+  - first:
+      213: 3299746457738469003
+    second: pokemon 1_71
+  - first:
+      213: 5406940511545417847
+    second: pokemon 1_72
+  - first:
+      213: 3093329236328215942
+    second: pokemon 1_73
+  - first:
+      213: -89401703387756232
+    second: pokemon 1_74
+  - first:
+      213: 6464439874821102019
+    second: pokemon 1_75
+  - first:
+      213: 5570876704809228543
+    second: pokemon 1_76
+  - first:
+      213: 282215298602297032
+    second: pokemon 1_77
+  - first:
+      213: 9183379665375927687
+    second: pokemon 1_78
+  - first:
+      213: 5396379975984634827
+    second: pokemon 1_79
+  - first:
+      213: -5068008893853286571
+    second: pokemon 1_80
+  - first:
+      213: -1001535383741358191
+    second: pokemon 1_81
+  - first:
+      213: -5766481437590282966
+    second: pokemon 1_82
+  - first:
+      213: -5429323811742923353
+    second: pokemon 1_83
+  - first:
+      213: 6049448260806074533
+    second: pokemon 1_84
+  - first:
+      213: -8801309325815938416
+    second: pokemon 1_85
+  - first:
+      213: -8035494080670306802
+    second: pokemon 1_86
+  - first:
+      213: 6708843493680072541
+    second: pokemon 1_87
+  - first:
+      213: 888883655029577430
+    second: pokemon 1_88
+  - first:
+      213: -4807873365494619802
+    second: pokemon 1_89
+  - first:
+      213: 6077768997514862130
+    second: pokemon 1_90
+  - first:
+      213: -989277393213541071
+    second: pokemon 1_91
+  - first:
+      213: -3725400585862591140
+    second: pokemon 1_92
+  - first:
+      213: 7804039489579209962
+    second: pokemon 1_93
+  - first:
+      213: -8312196160235997914
+    second: pokemon 1_94
+  - first:
+      213: -3321085187346431501
+    second: pokemon 1_95
+  - first:
+      213: 5345913690917520411
+    second: pokemon 1_96
+  - first:
+      213: 4307740756039320771
+    second: pokemon 1_97
+  - first:
+      213: 6104910112424634881
+    second: pokemon 1_98
+  - first:
+      213: -1897205541148050629
+    second: pokemon 1_99
+  - first:
+      213: 805221060533485432
+    second: pokemon 1_100
+  - first:
+      213: -3608539935865874126
+    second: pokemon 1_101
+  - first:
+      213: -7276501974850743488
+    second: pokemon 1_102
+  - first:
+      213: 4521710641914083739
+    second: pokemon 1_103
+  - first:
+      213: -6035708058745091326
+    second: pokemon 1_104
+  - first:
+      213: -1958634095935969412
+    second: pokemon 1_105
+  - first:
+      213: -2189655418183562778
+    second: pokemon 1_106
+  - first:
+      213: 7654205828431166483
+    second: pokemon 1_107
+  - first:
+      213: -1041885442466545736
+    second: pokemon 1_108
+  - first:
+      213: -2956520337282573260
+    second: pokemon 1_109
+  - first:
+      213: 7799783043362515195
+    second: pokemon 1_110
+  - first:
+      213: 8214270315540270103
+    second: pokemon 1_111
+  - first:
+      213: 7358727947265921704
+    second: pokemon 1_112
+  - first:
+      213: -3752463646778067529
+    second: pokemon 1_113
+  - first:
+      213: 1284952607728278774
+    second: pokemon 1_114
+  - first:
+      213: 6633978054645711770
+    second: pokemon 1_115
+  - first:
+      213: 1548334488230265615
+    second: pokemon 1_116
+  - first:
+      213: -838797477747403225
+    second: pokemon 1_117
+  - first:
+      213: -3473305187443853762
+    second: pokemon 1_118
+  - first:
+      213: -7381884088916132456
+    second: pokemon 1_119
+  - first:
+      213: -6461262527489680497
+    second: pokemon 1_120
+  - first:
+      213: -6619911618677665110
+    second: pokemon 1_121
+  - first:
+      213: -6164299356283764930
+    second: pokemon 1_122
+  - first:
+      213: -141884405663693931
+    second: pokemon 1_123
+  - first:
+      213: -8956024296021101361
+    second: pokemon 1_124
+  - first:
+      213: 2903758636670701539
+    second: pokemon 1_125
+  - first:
+      213: -22279805346294910
+    second: pokemon 1_126
+  - first:
+      213: -6914319336580155392
+    second: pokemon 1_127
+  - first:
+      213: 7349330865469062782
+    second: pokemon 1_128
+  - first:
+      213: -3582735047239175162
+    second: pokemon 1_129
+  - first:
+      213: -8653355754684810780
+    second: pokemon 1_130
+  - first:
+      213: -1487133027896931258
+    second: pokemon 1_131
+  - first:
+      213: 7376509005960829024
+    second: pokemon 1_132
+  - first:
+      213: 1134060690363958490
+    second: pokemon 1_133
+  - first:
+      213: -3266258420334498980
+    second: pokemon 1_134
+  - first:
+      213: -2001417450693347928
+    second: pokemon 1_135
+  - first:
+      213: -5394051749124286722
+    second: pokemon 1_136
+  - first:
+      213: -3145702206076402581
+    second: pokemon 1_137
+  - first:
+      213: -7695810504111239155
+    second: pokemon 1_138
+  - first:
+      213: 2461411171381794148
+    second: pokemon 1_139
+  - first:
+      213: 7187691883349550679
+    second: pokemon 1_140
+  - first:
+      213: 985404145799475628
+    second: pokemon 1_141
+  - first:
+      213: 2215778894536305406
+    second: pokemon 1_142
+  - first:
+      213: -427085058829311773
+    second: pokemon 1_143
+  - first:
+      213: -1618403804205884225
+    second: pokemon 1_144
+  - first:
+      213: 107478635221234631
+    second: pokemon 1_145
+  - first:
+      213: 4538821129867848619
+    second: pokemon 1_146
+  - first:
+      213: -1521626032117169540
+    second: pokemon 1_147
+  - first:
+      213: 104474053515750635
+    second: pokemon 1_148
+  - first:
+      213: 3344102914622128953
+    second: pokemon 1_149
+  - first:
+      213: -5059275440057325467
+    second: pokemon 1_150
+  - first:
+      213: -4249620254302462555
+    second: pokemon 1_151
+  - first:
+      213: 5381006116722473392
+    second: pokemon 1_152
+  - first:
+      213: 5946200715900307247
+    second: pokemon 1_153
+  - first:
+      213: -8170188875862246054
+    second: pokemon 1_154
+  - first:
+      213: 4197947057443522374
+    second: pokemon 1_155
+  - first:
+      213: 9156581571078575488
+    second: pokemon 1_156
+  - first:
+      213: 2102838517064886305
+    second: pokemon 1_157
+  - first:
+      213: -4140560426463358782
+    second: pokemon 1_158
+  - first:
+      213: 2054263609515403004
+    second: pokemon 1_159
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 4
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pokemon 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ac03d7b2a091dc0800000000000000
+      internalID: -3667889239616337276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a9cd8a394c6b960800000000000000
+      internalID: 7617491958216038976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d59f88faa6040730800000000000000
+      internalID: 3964300903377245649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acb90b1b8b7a7d70800000000000000
+      internalID: 9041675039283985571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e86426977134bf70800000000000000
+      internalID: 9202034328314603746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15aad9c566b4b1540800000000000000
+      internalID: 4979656716000799313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e11c650a19b606e0800000000000000
+      internalID: -1871605073714605598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f31413b1f55657e0800000000000000
+      internalID: -1777138506371165200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4642bfaec62b9b290800000000000000
+      internalID: -7874066292612062108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2c5e8f82fe2b330800000000000000
+      internalID: 3725302801042358967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12cef5fa25a5b9940800000000000000
+      internalID: 5303932297335008289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2bd1df8789e5b230800000000000000
+      internalID: 3654083441123777323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898f87ceedb31e8f0800000000000000
+      internalID: -513063053907396456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5306347934751cf20800000000000000
+      internalID: 3441127538099970101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccfef67406d0b440800000000000000
+      internalID: 4949691305144810688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda19a547e643db50800000000000000
+      internalID: 6616710236657490654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11e0b73695ccdde0800000000000000
+      internalID: -1306952542874181349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93875c2f4d9c8eeb0800000000000000
+      internalID: -4690277095463094215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c811ace8321fd69f0800000000000000
+      internalID: -473457250782277236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517281bfea376da30800000000000000
+      internalID: 4239703294590068501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8d3cbe25ccf28c0800000000000000
+      internalID: -4021771285703698206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58b1933f224eaca0800000000000000
+      internalID: -6003788482742208418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fa87f314e8b3830800000000000000
+      internalID: 4051988700638785359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3f4da1a9eb83ea10800000000000000
+      internalID: 1937546100255575871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646a0181d055fd710800000000000000
+      internalID: 1720187097405498950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_25
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26db681dd7ab9c740800000000000000
+      internalID: 5172870696560672098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8623d63313653360800000000000000
+      internalID: 7148728917695866507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_27
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2fa922f07c08f10800000000000000
+      internalID: 2270033080013746876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2424dc53318b33ea0800000000000000
+      internalID: -5894165094651313598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_29
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d26555599a73d030800000000000000
+      internalID: 3518290532886733520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95285efc821844f60800000000000000
+      internalID: 8017675248912925273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_31
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbdc29be1464c6b0800000000000000
+      internalID: -5276982780252857389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca8e884d82b69790800000000000000
+      internalID: -7523629807598400819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc18444114d86fd90800000000000000
+      internalID: -7064303654831619637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e59ed6917ff346f0800000000000000
+      internalID: -701436253612108318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec1f8fe16bb78890800000000000000
+      internalID: -7455784628783211284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112507c1cc768cb50800000000000000
+      internalID: 6613650179141685777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2a7ca5a9b667a90800000000000000
+      internalID: -7316542233924623646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43c858354e5fd660800000000000000
+      internalID: 7412747163066221388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727438e119bdc1bf0800000000000000
+      internalID: -352165254513080537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032c36712eb6f29b0800000000000000
+      internalID: -5102741233988287952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_41
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed45abb637a98970800000000000000
+      internalID: 8757714803916885479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_42
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6783bb64986abdd40800000000000000
+      internalID: 5610260869347489910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_43
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00eecc9f8994b78c0800000000000000
+      internalID: -4000522922613740032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166bbd19418e33e20800000000000000
+      internalID: 3329259724601013857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55739c8846135bba0800000000000000
+      internalID: -6073894214577866923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95226e2a0dc52e160800000000000000
+      internalID: 7053302017571562073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_47
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5427c71d455e720800000000000000
+      internalID: 2874797195858691495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef93bbdb7d156df0800000000000000
+      internalID: -187711391661842463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471be487326698310800000000000000
+      internalID: 1407768661058302324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47ff6ead48832430800000000000000
+      internalID: 3756996381377558350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a05de09b141f440800000000000000
+      internalID: 4967824127039965736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710a8e4fb13204f20800000000000000
+      internalID: 3404759921272070167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c16bcf102ff9580800000000000000
+      internalID: -8818063455019459455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699b69e968012eb80800000000000000
+      internalID: -8367106987328620138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b1596b1792d5670800000000000000
+      internalID: 8529018837680855920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f7978ad99cabd90800000000000000
+      internalID: -7081125785113100432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_57
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494b6dbb756dc7460800000000000000
+      internalID: 7240897973206824084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_58
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01405b485037d67e0800000000000000
+      internalID: -1770632610948250608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_59
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12651284821eb4b0800000000000000
+      internalID: -5422876540980076002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72041d2060909ab0800000000000000
+      internalID: -5003340443261074818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_61
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c16b19c133a3a10800000000000000
+      internalID: 1889879191432076394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_62
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6c32576bfda2410800000000000000
+      internalID: 1453219804522727089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_63
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d789a6200e0292130800000000000000
+      internalID: 3542398728388909181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed50d53113128a5d0800000000000000
+      internalID: -3051152252881533474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a48b3a34a1dfc90800000000000000
+      internalID: -7134517356873102725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab1faa9fe0a72d30800000000000000
+      internalID: 4406667711358114734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e121ef2b07146af0800000000000000
+      internalID: -404172729741139481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c3c9fb32d867a20800000000000000
+      internalID: 3059788181522889858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d9c5d683ea7cff0800000000000000
+      internalID: -15852516296319606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db652869e06a9c60800000000000000
+      internalID: 7825673858100587472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8eda56abed0bcd20800000000000000
+      internalID: 3299746457738469003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77065508fbf490b40800000000000000
+      internalID: 5406940511545417847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_73
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6857ca02d86bdea20800000000000000
+      internalID: 3093329236328215942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839024bdf9162cef0800000000000000
+      internalID: -89401703387756232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_75
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9159ae0dd46b950800000000000000
+      internalID: 6464439874821102019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff817a5e8dabf4d40800000000000000
+      internalID: 5570876704809228543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_77
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6ee5f9151aae300800000000000000
+      internalID: 282215298602297032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_78
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d1748662be17f70800000000000000
+      internalID: 9183379665375927687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_79
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb58953ffac3ea40800000000000000
+      internalID: 5396379975984634827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55fba5333c0daa9b0800000000000000
+      internalID: -5068008893853286571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f9c16ffd4d912f0800000000000000
+      internalID: -1001535383741358191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d1c844fa759ffa0800000000000000
+      internalID: -5766481437590282966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a54e7e42ca27a4b0800000000000000
+      internalID: -5429323811742923353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a063705425f3f350800000000000000
+      internalID: 6049448260806074533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092886cacc77bd580800000000000000
+      internalID: -8801309325815938416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_86
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e64ee15b03c7090800000000000000
+      internalID: -8035494080670306802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_87
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57cd7ecc999a1d50800000000000000
+      internalID: 6708843493680072541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_88
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d650b889f2f55c00800000000000000
+      internalID: 888883655029577430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_89
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661a1a4b5a0074db0800000000000000
+      internalID: -4807873365494619802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_90
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e51cba3b2985450800000000000000
+      internalID: 6077768997514862130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_91
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 135be29c3716542f0800000000000000
+      internalID: -989277393213541071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_92
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dc0a9b7e7bc4cc0800000000000000
+      internalID: -3725400585862591140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_93
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae45d7571948d4c60800000000000000
+      internalID: 7804039489579209962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62574c5d1a525ac80800000000000000
+      internalID: -8312196160235997914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_95
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f187633e9229e1d0800000000000000
+      internalID: -3321085187346431501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1449039d20803a40800000000000000
+      internalID: 5345913690917520411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4423ce46b28cb30800000000000000
+      internalID: 4307740756039320771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_98
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10aa2cce66ff8b450800000000000000
+      internalID: 6104910112424634881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_99
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bb7f5bc95cba5e0800000000000000
+      internalID: -1897205541148050629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ff2cec948bc2b00800000000000000
+      internalID: 805221060533485432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_101
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23957e41c04ebedc0800000000000000
+      internalID: -3608539935865874126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043d795a10ca40b90800000000000000
+      internalID: -7276501974850743488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_103
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99746c2fd750ce30800000000000000
+      internalID: 4521710641914083739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b4986cf7bdc3ca0800000000000000
+      internalID: -6035708058745091326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_105
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77a4c2caa881d4e0800000000000000
+      internalID: -1958634095935969412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_106
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9c8aa9ff7cc91e0800000000000000
+      internalID: -2189655418183562778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c3d51b5a3393a60800000000000000
+      internalID: 7654205828431166483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf7121d5ba7a81f0800000000000000
+      internalID: -1041885442466545736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_109
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43cdd05ea6458f6d0800000000000000
+      internalID: -2956520337282573260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_110
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8ecb85a556e3c60800000000000000
+      internalID: 7799783043362515195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_111
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c40d6b453fef170800000000000000
+      internalID: 8214270315540270103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2568f64147f1660800000000000000
+      internalID: 7358727947265921704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_113
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5f935d1329cebc0800000000000000
+      internalID: -3752463646778067529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc1bd8b69115d110800000000000000
+      internalID: 1284952607728278774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9305e274ef901c50800000000000000
+      internalID: 6633978054645711770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03837c730acc7510800000000000000
+      internalID: 1548334488230265615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_117
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7265f5c532efb54f0800000000000000
+      internalID: -838797477747403225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_118
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3633e995575ccfc0800000000000000
+      internalID: -3473305187443853762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_119
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89dbb0338874e8990800000000000000
+      internalID: -7381884088916132456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b5f68e6fbf456a0800000000000000
+      internalID: -6461262527489680497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_121
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa29c34e4795124a0800000000000000
+      internalID: -6619911618677665110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_122
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f79833562047aa0800000000000000
+      internalID: -6164299356283764930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_123
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5938f3182ece70ef0800000000000000
+      internalID: -141884405663693931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_124
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4f4e39a5fc5b380800000000000000
+      internalID: -8956024296021101361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_125
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efca3468193c4820800000000000000
+      internalID: 2903758636670701539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_126
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2835ba492a8d0bff0800000000000000
+      internalID: -22279805346294910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_127
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008768f62376b00a0800000000000000
+      internalID: -6914319336580155392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ef815db711ef560800000000000000
+      internalID: 7349330865469062782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_129
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60477f8e471974ec0800000000000000
+      internalID: -3582735047239175162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_130
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9fdeed9ca19e780800000000000000
+      internalID: -8653355754684810780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_131
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cc37ae364ac5be0800000000000000
+      internalID: -1487133027896931258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 068d3c6cbdf9e5660800000000000000
+      internalID: 7376509005960829024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_133
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4c0ea703efcbf00800000000000000
+      internalID: 1134060690363958490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b6557a54beba2d0800000000000000
+      internalID: -3266258420334498980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_135
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5b72cbe698934e0800000000000000
+      internalID: -2001417450693347928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_136
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef65f59538a7425b0800000000000000
+      internalID: -5394051749124286722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_137
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6447ad92883854d0800000000000000
+      internalID: -3145702206076402581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00dab3ee1df23590800000000000000
+      internalID: -7695810504111239155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_139
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465d3645b60b82220800000000000000
+      internalID: 2461411171381794148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_140
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75622069fafcfb360800000000000000
+      internalID: 7187691883349550679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_141
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1339689dbdcad00800000000000000
+      internalID: 985404145799475628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_142
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efae4a53a2700ce10800000000000000
+      internalID: 2215778894536305406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_143
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e02a9bd660b21af0800000000000000
+      internalID: -427085058829311773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcda2390564a89e0800000000000000
+      internalID: -1618403804205884225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c33e41df37dd7100800000000000000
+      internalID: 107478635221234631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_146
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab6fc815c12dfe30800000000000000
+      internalID: 4538821129867848619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_147
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c724baa8f2912eae0800000000000000
+      internalID: -1521626032117169540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec2d00299a237100800000000000000
+      internalID: 104474053515750635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_149
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933866e02e3a86e20800000000000000
+      internalID: 3344102914622128953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_150
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568668edac7d9c9b0800000000000000
+      internalID: -5059275440057325467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_151
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad1ff7e4e05605c0800000000000000
+      internalID: -4249620254302462555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_152
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b97279ad8c2daa40800000000000000
+      internalID: 5381006116722473392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_153
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27496afb06258250800000000000000
+      internalID: 5946200715900307247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_154
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5df1624188ad9e80800000000000000
+      internalID: -8170188875862246054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_155
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64741d86b9a124a30800000000000000
+      internalID: 4197947057443522374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_156
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085d60ddc66b21f70800000000000000
+      internalID: 9156581571078575488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_157
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12869ad6d78ce2d10800000000000000
+      internalID: 2102838517064886305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_158
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c09c91da36c986c0800000000000000
+      internalID: -4140560426463358782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pokemon 1_159
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf66d207ed5328c10800000000000000
+      internalID: 2054263609515403004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

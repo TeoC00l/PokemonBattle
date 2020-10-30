@@ -1,0 +1,2383 @@
+fileFormatVersion: 2
+guid: 242aee2a7d1780f4e8b1ac09311e3a5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7680835128539209639
+    second: pkmn ui_0
+  - first:
+      213: 3770711451539088624
+    second: pkmn ui_1
+  - first:
+      213: -6639713535479111399
+    second: pkmn ui_2
+  - first:
+      213: -655514042624836818
+    second: pkmn ui_3
+  - first:
+      213: 8121385014546357080
+    second: pkmn ui_4
+  - first:
+      213: -2078855763629648984
+    second: pkmn ui_5
+  - first:
+      213: -1002663249493775813
+    second: pkmn ui_6
+  - first:
+      213: 3645918591523207768
+    second: pkmn ui_7
+  - first:
+      213: 9174874031566661528
+    second: pkmn ui_8
+  - first:
+      213: -1842407586918216411
+    second: pkmn ui_9
+  - first:
+      213: 3586566796503296119
+    second: pkmn ui_10
+  - first:
+      213: 3942969264679364849
+    second: pkmn ui_11
+  - first:
+      213: 4895078759855106289
+    second: pkmn ui_12
+  - first:
+      213: -2372445995715304836
+    second: pkmn ui_13
+  - first:
+      213: 6212392612197215181
+    second: pkmn ui_14
+  - first:
+      213: 1912165154354010812
+    second: pkmn ui_15
+  - first:
+      213: 5264086175959198737
+    second: pkmn ui_16
+  - first:
+      213: 2453531708953785015
+    second: pkmn ui_17
+  - first:
+      213: -1495395522670520106
+    second: pkmn ui_18
+  - first:
+      213: -6332027447408111827
+    second: pkmn ui_19
+  - first:
+      213: -6308885451484590603
+    second: pkmn ui_20
+  - first:
+      213: 6498231217759743724
+    second: pkmn ui_21
+  - first:
+      213: 4722070994137105342
+    second: pkmn ui_22
+  - first:
+      213: 8204749579377942903
+    second: pkmn ui_23
+  - first:
+      213: 460748736936954051
+    second: pkmn ui_24
+  - first:
+      213: -3362674982023853110
+    second: pkmn ui_25
+  - first:
+      213: 8223001202674826839
+    second: pkmn ui_26
+  - first:
+      213: 6572423291011129684
+    second: pkmn ui_27
+  - first:
+      213: 4478619686957634389
+    second: pkmn ui_28
+  - first:
+      213: -7635560448458431858
+    second: pkmn ui_29
+  - first:
+      213: 4263894390745061661
+    second: pkmn ui_30
+  - first:
+      213: -309410316939362174
+    second: pkmn ui_31
+  - first:
+      213: -7049744656885831578
+    second: pkmn ui_32
+  - first:
+      213: -5536372613252985916
+    second: pkmn ui_33
+  - first:
+      213: 143618198369864037
+    second: pkmn ui_34
+  - first:
+      213: -6941814646613619828
+    second: pkmn ui_35
+  - first:
+      213: 2099898146569738817
+    second: pkmn ui_36
+  - first:
+      213: 2050214684077966383
+    second: pkmn ui_37
+  - first:
+      213: 574754340863866792
+    second: pkmn ui_38
+  - first:
+      213: 6172673990633449252
+    second: pkmn ui_39
+  - first:
+      213: -1638949031659117890
+    second: pkmn ui_40
+  - first:
+      213: 4946402729874875947
+    second: pkmn ui_41
+  - first:
+      213: 8225853221595321158
+    second: pkmn ui_42
+  - first:
+      213: 7278059644811233040
+    second: pkmn ui_43
+  - first:
+      213: 4013550676198782816
+    second: pkmn ui_44
+  - first:
+      213: -6394067139007042762
+    second: pkmn ui_45
+  - first:
+      213: -7669672999341489977
+    second: pkmn ui_46
+  - first:
+      213: -570945826599226149
+    second: pkmn ui_47
+  - first:
+      213: 4455394036904534938
+    second: pkmn ui_48
+  - first:
+      213: 4026278910869679399
+    second: pkmn ui_49
+  - first:
+      213: -5278566106679223321
+    second: pkmn ui_50
+  - first:
+      213: -6743277071660187160
+    second: pkmn ui_51
+  - first:
+      213: 2405875141770652298
+    second: pkmn ui_52
+  - first:
+      213: 9083796216284200263
+    second: pkmn ui_53
+  - first:
+      213: 2032734120276294037
+    second: pkmn ui_54
+  - first:
+      213: -1416471404927615627
+    second: pkmn ui_55
+  - first:
+      213: 4038359685576996645
+    second: pkmn ui_56
+  - first:
+      213: -4762199898456518881
+    second: pkmn ui_57
+  - first:
+      213: -7542776052470032612
+    second: pkmn ui_58
+  - first:
+      213: -1575153090038606237
+    second: pkmn ui_59
+  - first:
+      213: -660437004142387679
+    second: pkmn ui_60
+  - first:
+      213: 1018356695878712613
+    second: pkmn ui_61
+  - first:
+      213: 6140549741821852910
+    second: pkmn ui_62
+  - first:
+      213: 2838643248388589426
+    second: pkmn ui_63
+  - first:
+      213: 8216443808891545379
+    second: pkmn ui_64
+  - first:
+      213: -4585391736440823076
+    second: pkmn ui_65
+  - first:
+      213: -5407112227908709102
+    second: pkmn ui_66
+  - first:
+      213: 1824696603672610149
+    second: pkmn ui_67
+  - first:
+      213: 4002066297380606222
+    second: pkmn ui_68
+  - first:
+      213: -4476143631357824004
+    second: pkmn ui_69
+  - first:
+      213: 72144399954407202
+    second: pkmn ui_70
+  - first:
+      213: 8315624437422356972
+    second: pkmn ui_71
+  - first:
+      213: 2056337328866455814
+    second: pkmn ui_72
+  - first:
+      213: 4769423769176466963
+    second: pkmn ui_73
+  - first:
+      213: -5548684733506524930
+    second: pkmn ui_74
+  - first:
+      213: 8393764080088830835
+    second: pkmn ui_75
+  - first:
+      213: 2174323206460414660
+    second: pkmn ui_76
+  - first:
+      213: 8462836889689642312
+    second: pkmn ui_77
+  - first:
+      213: -3476138546773831208
+    second: pkmn ui_78
+  - first:
+      213: -7752471754406699023
+    second: pkmn ui_79
+  - first:
+      213: -7730026504192392759
+    second: pkmn ui_80
+  - first:
+      213: 1862957657193232476
+    second: pkmn ui_81
+  - first:
+      213: 226059636399148884
+    second: pkmn ui_82
+  - first:
+      213: 2793376403111360853
+    second: pkmn ui_83
+  - first:
+      213: -5757192766445049891
+    second: pkmn ui_84
+  - first:
+      213: 3394239813636208697
+    second: pkmn ui_85
+  - first:
+      213: -4268593956351823538
+    second: pkmn ui_86
+  - first:
+      213: 625975705781382740
+    second: pkmn ui_87
+  - first:
+      213: 2591655671799194366
+    second: pkmn ui_88
+  - first:
+      213: -2318033972580947669
+    second: pkmn ui_89
+  - first:
+      213: -8851528206801350992
+    second: pkmn ui_90
+  - first:
+      213: 2578254657969303384
+    second: pkmn ui_91
+  - first:
+      213: -4064247530538896906
+    second: pkmn ui_92
+  - first:
+      213: 4673511754091676084
+    second: pkmn ui_93
+  - first:
+      213: 7894354438355188252
+    second: pkmn ui_94
+  - first:
+      213: -2123305555465303402
+    second: pkmn ui_95
+  - first:
+      213: -388555473062494694
+    second: pkmn ui_96
+  - first:
+      213: -6663765483868397034
+    second: pkmn ui_97
+  - first:
+      213: 3475275780177021916
+    second: pkmn ui_98
+  - first:
+      213: -8324871617449450613
+    second: pkmn ui_99
+  - first:
+      213: 7866068982148919554
+    second: pkmn ui_100
+  - first:
+      213: 5858787080435612563
+    second: pkmn ui_101
+  - first:
+      213: 2988795569343394284
+    second: pkmn ui_102
+  - first:
+      213: 8885928019199996081
+    second: pkmn ui_103
+  - first:
+      213: -8372806163244285376
+    second: pkmn ui_104
+  - first:
+      213: -6218818695649106433
+    second: pkmn ui_105
+  - first:
+      213: -7476041883743047470
+    second: pkmn ui_106
+  - first:
+      213: -415351585490406110
+    second: pkmn ui_107
+  - first:
+      213: -7229748093741203627
+    second: pkmn ui_108
+  - first:
+      213: 5942912365894317968
+    second: pkmn ui_109
+  - first:
+      213: -4671195274402227142
+    second: pkmn ui_110
+  - first:
+      213: -3682446801999123145
+    second: pkmn ui_111
+  - first:
+      213: 3127332901076373939
+    second: pkmn ui_112
+  - first:
+      213: -8191971512191840096
+    second: pkmn ui_113
+  - first:
+      213: -8028468146926523212
+    second: pkmn ui_114
+  - first:
+      213: -4216398716286831803
+    second: pkmn ui_115
+  - first:
+      213: 8027347611864695131
+    second: pkmn ui_116
+  - first:
+      213: -8428093549793004054
+    second: pkmn ui_117
+  - first:
+      213: -6679320441184893344
+    second: pkmn ui_118
+  - first:
+      213: 5523611947205235745
+    second: pkmn ui_119
+  - first:
+      213: -6802668356147934528
+    second: pkmn ui_120
+  - first:
+      213: -7695642174924638769
+    second: pkmn ui_121
+  - first:
+      213: -7695468563062678407
+    second: pkmn ui_122
+  - first:
+      213: -4597648948516558504
+    second: pkmn ui_123
+  - first:
+      213: -5545707928856312556
+    second: pkmn ui_124
+  - first:
+      213: -452003044572169317
+    second: pkmn ui_125
+  - first:
+      213: 3996421317539630758
+    second: pkmn ui_126
+  - first:
+      213: 4897760832406920754
+    second: pkmn ui_127
+  - first:
+      213: 3294389870187900282
+    second: pkmn ui_128
+  - first:
+      213: 1829573293566957468
+    second: pkmn ui_129
+  - first:
+      213: -7233337510472503317
+    second: pkmn ui_130
+  - first:
+      213: 3751626858637165988
+    second: pkmn ui_131
+  - first:
+      213: 9136268100443706363
+    second: pkmn ui_132
+  - first:
+      213: 2433679619466881066
+    second: pkmn ui_133
+  - first:
+      213: -8726595615287177405
+    second: pkmn ui_134
+  - first:
+      213: -1624575490573040439
+    second: pkmn ui_135
+  - first:
+      213: -7909442687825095383
+    second: pkmn ui_136
+  - first:
+      213: -4224870094484820305
+    second: pkmn ui_137
+  - first:
+      213: -7278386665548100952
+    second: pkmn ui_138
+  - first:
+      213: -7163879778366612780
+    second: pkmn ui_139
+  - first:
+      213: -2186600173813796886
+    second: pkmn ui_140
+  - first:
+      213: 4421962535447513912
+    second: pkmn ui_141
+  - first:
+      213: 3836030808604821001
+    second: pkmn ui_142
+  - first:
+      213: 4544702543057987053
+    second: pkmn ui_143
+  - first:
+      213: 237755437913245003
+    second: pkmn ui_144
+  - first:
+      213: -7198522027195335145
+    second: pkmn ui_145
+  - first:
+      213: -108395322011557976
+    second: pkmn ui_146
+  - first:
+      213: -4510996759020097909
+    second: pkmn ui_147
+  - first:
+      213: 770514969796835319
+    second: pkmn ui_148
+  - first:
+      213: -1432773198500077928
+    second: pkmn ui_149
+  - first:
+      213: 7932262132326616245
+    second: pkmn ui_150
+  - first:
+      213: -6940073417598059781
+    second: pkmn ui_151
+  - first:
+      213: 4963290229546341147
+    second: pkmn ui_152
+  - first:
+      213: 161087788968651416
+    second: pkmn ui_153
+  - first:
+      213: 1711550901747910202
+    second: pkmn ui_154
+  - first:
+      213: 3408909015548533327
+    second: pkmn ui_155
+  - first:
+      213: 2316221967604598086
+    second: pkmn ui_156
+  - first:
+      213: 8153218894750302186
+    second: pkmn ui_157
+  - first:
+      213: -4896099975925250059
+    second: pkmn ui_158
+  - first:
+      213: 1318514483298621425
+    second: pkmn ui_159
+  - first:
+      213: -1978222880411248510
+    second: pkmn ui_160
+  - first:
+      213: 1161279524663705651
+    second: pkmn ui_161
+  - first:
+      213: -4926837010413707099
+    second: pkmn ui_162
+  - first:
+      213: 7161166077862469698
+    second: pkmn ui_163
+  - first:
+      213: -4011439175923495499
+    second: pkmn ui_164
+  - first:
+      213: -244020587961669783
+    second: pkmn ui_165
+  - first:
+      213: -2903571945047913948
+    second: pkmn ui_166
+  - first:
+      213: 9046160213740680251
+    second: pkmn ui_167
+  - first:
+      213: 6281623954914456822
+    second: pkmn ui_168
+  - first:
+      213: 8403792545786830040
+    second: pkmn ui_169
+  - first:
+      213: -3591591960386632474
+    second: pkmn ui_170
+  - first:
+      213: 316389908690059851
+    second: pkmn ui_171
+  - first:
+      213: -15998578572218017
+    second: pkmn ui_172
+  - first:
+      213: 2208641342453610322
+    second: pkmn ui_173
+  - first:
+      213: -501387854547905293
+    second: pkmn ui_174
+  - first:
+      213: -2513633966199316509
+    second: pkmn ui_175
+  - first:
+      213: 113088408421814843
+    second: pkmn ui_176
+  - first:
+      213: 6571704543362922624
+    second: pkmn ui_177
+  - first:
+      213: -2056542427223150480
+    second: pkmn ui_178
+  - first:
+      213: 8643314144221153022
+    second: pkmn ui_179
+  - first:
+      213: -7697816033578864037
+    second: pkmn ui_180
+  - first:
+      213: -1730759875099079338
+    second: pkmn ui_181
+  - first:
+      213: 6874895361961723385
+    second: pkmn ui_182
+  - first:
+      213: 5750857301514253438
+    second: pkmn ui_183
+  - first:
+      213: -975938297609825424
+    second: pkmn ui_184
+  - first:
+      213: -2587291929447443701
+    second: pkmn ui_185
+  - first:
+      213: -8069094735375695365
+    second: pkmn ui_186
+  - first:
+      213: -6249245502010720003
+    second: pkmn ui_187
+  - first:
+      213: -7498007395961033896
+    second: pkmn ui_188
+  - first:
+      213: -8423881119019737255
+    second: pkmn ui_189
+  - first:
+      213: -737978982262021868
+    second: pkmn ui_190
+  - first:
+      213: -6542773913272267006
+    second: pkmn ui_191
+  - first:
+      213: -3908444071168927633
+    second: pkmn ui_192
+  - first:
+      213: 5703694004926857104
+    second: pkmn ui_193
+  - first:
+      213: 2738468791019034377
+    second: pkmn ui_194
+  - first:
+      213: -8704423737629881747
+    second: pkmn ui_195
+  - first:
+      213: 2189010247124028017
+    second: pkmn ui_196
+  - first:
+      213: 5904248442327539578
+    second: pkmn ui_197
+  - first:
+      213: -1062103732700801023
+    second: pkmn ui_198
+  - first:
+      213: 8250977878450661517
+    second: pkmn ui_199
+  - first:
+      213: -5602825999665375801
+    second: pkmn ui_200
+  - first:
+      213: 8926773476447221910
+    second: pkmn ui_201
+  - first:
+      213: 5735529897993698205
+    second: pkmn ui_202
+  - first:
+      213: -7115311662947976517
+    second: pkmn ui_203
+  - first:
+      213: -5677676189659946554
+    second: pkmn ui_204
+  - first:
+      213: 6153245025479493691
+    second: pkmn ui_205
+  - first:
+      213: 8592701563868241223
+    second: pkmn ui_206
+  - first:
+      213: 6493144819224794755
+    second: pkmn ui_207
+  - first:
+      213: 3228865557752902376
+    second: pkmn ui_208
+  - first:
+      213: -8642495478047670715
+    second: pkmn ui_209
+  - first:
+      213: -6193895237187836602
+    second: pkmn ui_210
+  - first:
+      213: -270264861519790794
+    second: pkmn ui_211
+  - first:
+      213: -7257499605677918648
+    second: pkmn ui_212
+  - first:
+      213: -6984910816826320318
+    second: pkmn ui_213
+  - first:
+      213: 5748983096556609531
+    second: pkmn ui_214
+  - first:
+      213: 817899979400120678
+    second: pkmn ui_215
+  - first:
+      213: -989753455541668410
+    second: pkmn ui_216
+  - first:
+      213: 440649978722532092
+    second: pkmn ui_217
+  - first:
+      213: 5479901105151926733
+    second: pkmn ui_218
+  - first:
+      213: -3273377673799280613
+    second: pkmn ui_219
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 332, y: 215, z: 172, w: 104}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pkmn ui_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 213
+        width: 162
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afdbe6cadec79a60800000000000000
+      internalID: 7680835128539209639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 213
+        width: 162
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f42c7b4612445430800000000000000
+      internalID: 3770711451539088624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_2
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 213
+        width: 162
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9112a6bd7bffad3a0800000000000000
+      internalID: -6639713535479111399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_3
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 213
+        width: 162
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2bf018837527e6f0800000000000000
+      internalID: -655514042624836818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 66
+        width: 162
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b573c44a4f4b070800000000000000
+      internalID: 8121385014546357080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_5
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 66
+        width: 162
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3d49d72bb6623e0800000000000000
+      internalID: -2078855763629648984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_6
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 66
+        width: 162
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3aa5904613d512f0800000000000000
+      internalID: -1002663249493775813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_7
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85abbbf54a7e89230800000000000000
+      internalID: 3645918591523207768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897ac763253b35f70800000000000000
+      internalID: 9174874031566661528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d414aaf047e66e0800000000000000
+      internalID: -1842407586918216411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_10
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7782accbf7b06c130800000000000000
+      internalID: 3586566796503296119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_11
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f82f7dc7ad38b630800000000000000
+      internalID: 3942969264679364849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_12
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f829b46230dee340800000000000000
+      internalID: 4895078759855106289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_13
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c726798cfe0631fd0800000000000000
+      internalID: -2372445995715304836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcba6478a2ad63650800000000000000
+      internalID: 6212392612197215181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_15
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 38
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba9629a310698a10800000000000000
+      internalID: 1912165154354010812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_16
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 37
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ca7199c7acd0940800000000000000
+      internalID: 5264086175959198737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_17
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2f8550712bc0220800000000000000
+      internalID: 2453531708953785015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_18
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 38
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d89380f1b94f3be0800000000000000
+      internalID: -1495395522670520106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f4739c59e1028a0800000000000000
+      internalID: -6332027447408111827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_20
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd81a79b165278a0800000000000000
+      internalID: -6308885451484590603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_21
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee6cea0dda5e2a50800000000000000
+      internalID: 6498231217759743724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_22
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3c7b1fc8a288140800000000000000
+      internalID: 4722070994137105342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771abd595402dd170800000000000000
+      internalID: 8204749579377942903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_24
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c846dbf888e46600800000000000000
+      internalID: 460748736936954051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_25
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb00698be06551d0800000000000000
+      internalID: -3362674982023853110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_26
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75efa09c608fd1270800000000000000
+      internalID: 8223001202674826839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_27
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451e8363920f53b50800000000000000
+      internalID: 6572423291011129684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_28
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5535e2560e0472e30800000000000000
+      internalID: 4478619686957634389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_29
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82ec902a3a090690800000000000000
+      internalID: -7635560448458431858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_30
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19d3287b556c2b30800000000000000
+      internalID: 4263894390745061661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_31
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2800df0c4f0c4bbf0800000000000000
+      internalID: -309410316939362174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_32
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 49
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668ac11f5964a2e90800000000000000
+      internalID: -7049744656885831578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_33
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 33
+        width: 54
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbcad2f07ada23b0800000000000000
+      internalID: -5536372613252985916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 38
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5690e119dfb3ef100800000000000000
+      internalID: 143618198369864037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_35
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 38
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bcdf3bb58b9af90800000000000000
+      internalID: -6941814646613619828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_36
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 38
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a5ac21d36542d10800000000000000
+      internalID: 2099898146569738817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_37
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24c1c58463d37c10800000000000000
+      internalID: 2050214684077966383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_38
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 38
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7fd402700f9f700800000000000000
+      internalID: 574754340863866792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_39
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 38
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427effd4a4eb9a550800000000000000
+      internalID: 6172673990633449252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_40
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 38
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2ecfa0a884149e0800000000000000
+      internalID: -1638949031659117890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_41
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 38
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26e63e531725a440800000000000000
+      internalID: 4946402729874875947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_42
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 38
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64311bf2ce9182270800000000000000
+      internalID: 8225853221595321158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_43
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0174417afacd00560800000000000000
+      internalID: 7278059644811233040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_44
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0677bd6431ff2b730800000000000000
+      internalID: 4013550676198782816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_45
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 38
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bac7570d5b347a0800000000000000
+      internalID: -6394067139007042762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_46
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 38
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c088d2fa09df8590800000000000000
+      internalID: -7669672999341489977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_47
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 38
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4bf83bbc79318f0800000000000000
+      internalID: -570945826599226149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_48
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 38
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93a618554db4dd30800000000000000
+      internalID: 4455394036904534938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_49
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 38
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72da809565730e730800000000000000
+      internalID: 4026278910869679399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_50
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 38
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebd7ffc714ceb6b0800000000000000
+      internalID: -5278566106679223321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_51
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 38
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e188a11b311b62a0800000000000000
+      internalID: -6743277071660187160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_52
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 37
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8aae2fc1b2636120800000000000000
+      internalID: 2405875141770652298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_53
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 38
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d38abd780201e70800000000000000
+      internalID: 9083796216284200263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_54
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59972e999e8b53c10800000000000000
+      internalID: 2032734120276294037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_55
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 24
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d7ac213cea75ce0800000000000000
+      internalID: -1416471404927615627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_56
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 7
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5273316ecb22b0830800000000000000
+      internalID: 4038359685576996645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_57
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f091f6c6449edb0800000000000000
+      internalID: -4762199898456518881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_58
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c175334c42da25790800000000000000
+      internalID: -7542776052470032612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_59
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366d3613c9ee32ae0800000000000000
+      internalID: -1575153090038606237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_60
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ed19b3b08a5d6f0800000000000000
+      internalID: -660437004142387679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_61
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52dbd78f40ee12e00800000000000000
+      internalID: 1018356695878712613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_62
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec78e6c47d973550800000000000000
+      internalID: 6140549741821852910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_63
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2774340aef2e46720800000000000000
+      internalID: 2838643248388589426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_64
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 16
+        width: 50
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32720f19c1ca60270800000000000000
+      internalID: 8216443808891545379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_65
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 7
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2ee69928a6d50c0800000000000000
+      internalID: -4585391736440823076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_66
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 8
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21594daa31416f4b0800000000000000
+      internalID: -5407112227908709102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_67
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 8
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56584c4b4ef925910800000000000000
+      internalID: 1824696603672610149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_68
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 8
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e011fe6f7123a8730800000000000000
+      internalID: 4002066297380606222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_69
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 6
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf33a49351b81e1c0800000000000000
+      internalID: -4476143631357824004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_70
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22fe0d313fe400100800000000000000
+      internalID: 72144399954407202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_71
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9fd162e58076370800000000000000
+      internalID: 8315624437422356972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_72
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 6
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601f579d7e3998c10800000000000000
+      internalID: 2056337328866455814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_73
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 6
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316611906a5603240800000000000000
+      internalID: 4769423769176466963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_74
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 11
+        width: 50
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef8e5b012ac1ff2b0800000000000000
+      internalID: -5548684733506524930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_75
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 6
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373d02275f3ac7470800000000000000
+      internalID: 8393764080088830835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pkmn ui_76
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 6
+        width: 50
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ca16fbaf6fbc2e10800000000000000
+      internalID: 2174323206460414660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
