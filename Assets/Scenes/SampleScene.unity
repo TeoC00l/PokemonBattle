@@ -123,6 +123,52 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &86826988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 86826990}
+  - component: {fileID: 86826989}
+  m_Layer: 0
+  m_Name: MoveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &86826989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86826988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9c787b99b735e144a4d5bf422252809, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonMoveKeyValuePairs:
+  - name: Tackle
+    move: {fileID: 11400000, guid: 2b028f04ba66bf04fa15190ac10cea7d, type: 2}
+--- !u!4 &86826990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86826988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.31448245, y: 1.9161842, z: -60.583763}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &152014489
 GameObject:
   m_ObjectHideFlags: 0
@@ -315,9 +361,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PokemonBaseStatList:
   - name: Bulbasaur
-    baseStats: {fileID: 0}
+    baseStats: {fileID: 11400000, guid: ffd2e528e1ba8af438f8e4ddf33e7a5e, type: 2}
   - name: Charmander
-    baseStats: {fileID: 0}
+    baseStats: {fileID: 11400000, guid: 058da92596c9efb45acf8f16e7614254, type: 2}
 --- !u!4 &276867301
 Transform:
   m_ObjectHideFlags: 0
@@ -932,7 +978,7 @@ RectTransform:
   - {fileID: 363378128}
   - {fileID: 331837597}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1019,7 +1065,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1257607379
 GameObject:

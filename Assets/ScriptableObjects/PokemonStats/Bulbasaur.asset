@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2c5ee3099aa87a4690febe91f8476c5, type: 3}
   m_Name: Bulbasaur
   m_EditorClassIdentifier: 
-  baseHP: 0
-  baseStamina: 0
-  baseAttack: 0
-  baseDefense: 0
-  baseSpeed: 0
-  baseSpecial: 0
+  baseHP: 45
+  baseAttack: 49
+  baseDefense: 49
+  baseSpeed: 45
+  baseSpecial: 62
+  pokemonType: 0
