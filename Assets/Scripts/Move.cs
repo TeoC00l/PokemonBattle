@@ -1,8 +1,14 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
-public abstract class Move
+
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "PkmnMove", menuName = "Move")]
+public class Move: ScriptableObject
 {
-    private string Name { get; }
-    private PokemonType damageType;
-    private int speed;
+    public string Name { get; private set; }
+    public PokemonType damageType { get; private set; }
+    public int power { get; private set; }
+    public int accuracy { get; private set; }
+    public int PP { get; private set; }
 }

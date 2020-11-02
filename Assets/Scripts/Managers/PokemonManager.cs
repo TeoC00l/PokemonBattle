@@ -32,7 +32,7 @@ public class PokemonManager : MonoBehaviour
         }
     }
 
-    private BaseStats GetPokemonStats(string name)
+    public BaseStats GetPokemonStats(string name)
     {
         Assert.IsTrue(pokemonStats.ContainsKey(name));
 

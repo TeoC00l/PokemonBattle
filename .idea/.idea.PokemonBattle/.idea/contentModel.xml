@@ -8,15 +8,19 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="BaseStats.cs" t="Include" />
+          <e p="BattleManager.cs" t="Include" />
+          <e p="Calculations.cs" t="Include" />
           <e p="Managers" t="Include">
             <e p="GameManager.cs" t="Include" />
             <e p="PokemonManager.cs" t="Include" />
           </e>
           <e p="Move.cs" t="Include" />
+          <e p="MoveManager.cs" t="Include" />
           <e p="Pokemon.cs" t="Include" />
           <e p="PokemonSprites.cs" t="Include" />
           <e p="PokemonType.cs" t="Include" />
           <e p="Stats.cs" t="Include" />
+          <e p="Trainer.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

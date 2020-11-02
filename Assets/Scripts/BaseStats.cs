@@ -6,9 +6,11 @@ using UnityEngine;
 public class BaseStats : ScriptableObject
 {
     public int baseHP;
-    public int baseStamina;
     public int baseAttack;
     public int baseDefense;
     public int baseSpeed;
     public int baseSpecial;
+    
+    public PokemonType pokemonType;
+
 }

@@ -2,39 +2,43 @@
 
 public class Stats
 {
-    private int baseHP;
-    private int baseStamina;
-    private int baseAttack;
-    private int baseDefense;
-    private int baseSpeed;
-    private int baseSpecial;
+    private BaseStats baseStats;
+
+    private int hp;
+    private int attack;
+    private int defense;
+    private int speed;
+    private int special;
     
     private int currentHP;
-    private int currentStamina;
     private int currentAttack;
     private int currentDefense;
     private int currentSpeed;
     private int currentSpecial;
 
-    public Stats(int hp, int stamina, int attack, int defense, int speed, int special)
+    public Stats(BaseStats baseStats, int level)
     {
-        baseHP = hp;
-        baseStamina = stamina;
-        baseAttack = attack;
-        baseDefense = defense;
-        baseSpeed = speed;
-        baseSpecial = special;
-
-        ResetStats();
+        this.baseStats = baseStats;
+        SetStats(level);
     }
 
     public void ResetStats()
     {
-        currentHP = baseHP;
-        currentStamina = baseStamina;
-        currentAttack = baseAttack;
-        currentDefense = baseDefense;
-        currentSpeed = baseSpeed;
-        currentSpecial = baseSpecial;
+        currentHP = hp;
+        currentAttack = attack;
+        currentDefense = defense;
+        currentSpeed = speed;
+        currentSpecial = special;
+    }
+
+    public void SetStats(int level)
+    {
+        hp = Calculations.CalculateHP(baseStats.baseHP, level);
+        attack = Calculations.CalculateStat(baseStats.baseAttack, level);
+        defense = Calculations.CalculateStat(baseStats.baseDefense, level);
+        speed = Calculations.CalculateStat(baseStats.baseSpeed, level);
+        speed = Calculations.CalculateStat(baseStats.baseSpecial, level);
+
+        ResetStats();
     }
 }
