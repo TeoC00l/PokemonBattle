@@ -1,10 +1,10 @@
-﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
+//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveManager : MonoBehaviour
+public class MoveManager : Manager<MoveManager>
 {
     private Dictionary<string, Move> moves = new Dictionary<string, Move>();
 
@@ -12,16 +12,21 @@ public class MoveManager : MonoBehaviour
     {
         return moves[moveName];
     }
-    
 
     [SerializeField] private PokemonMoveKeyValuePairs[] pokemonMoveKeyValuePairs = default;
-
-    public static MoveManager instance;
 
     [Serializable]
     public struct PokemonMoveKeyValuePairs
     {
         public string name;
         public Move move;
+    }
+
+    public override void InitializeManager()
+    {
+        for (int i = 0; i < Instance.pokemonMoveKeyValuePairs.Length; i++)
+        {
+            Instance.moves.Add(Instance.pokemonMoveKeyValuePairs[i].name, Instance.pokemonMoveKeyValuePairs[i].move);
+        }
     }
 }

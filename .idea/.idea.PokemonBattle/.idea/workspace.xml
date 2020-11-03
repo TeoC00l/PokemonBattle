@@ -11,6 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Calculations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -25,15 +26,16 @@
         <option value="$PROJECT_DIR$/Assets/Pokemon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PokemonSprites.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoveManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/PokemonManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Calculations.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Trainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/PokemonManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon.cs" />
       </list>
     </option>
   </component>
@@ -46,6 +48,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -76,7 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604052701873</updated>
       <workItem from="1604052705494" duration="11105000" />
-      <workItem from="1604308105681" duration="10239000" />
+      <workItem from="1604308105681" duration="10479000" />
+      <workItem from="1604398068183" duration="6190000" />
     </task>
     <servers />
   </component>
@@ -87,5 +91,11 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1604419939933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604419939933" />
   </component>
 </project>

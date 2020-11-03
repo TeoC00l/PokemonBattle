@@ -15,8 +15,7 @@ public class Pokemon
         this.name = name;
         this.level = level;
         
-        stats = new Stats(PokemonManager.instance.GetPokemonStats(name), level);
-        moves[0] = MoveManager.instance.Move("Tackle");
+        stats = new Stats(PokemonManager.Instance.GetPokemonStats(name), level);
+        moves[0] = MoveManager.Instance.Move("Tackle");
     }
-    
 }
