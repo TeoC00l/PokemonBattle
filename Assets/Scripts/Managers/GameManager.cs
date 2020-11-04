@@ -2,16 +2,16 @@
 
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManager : MonoSingleton<GameManager>, IManager
 {
     
     private void Awake()
     {
-        MoveManager.Instance.InitializeManager();
-        PokemonManager.Instance.InitializeManager();
+        InitializeManager();
+        DebugSceneSetup();
     }
 
-    private static void SetupScene()
+    private static void DebugSceneSetup()
     {
         Trainer playerTrainer = new Trainer("Red");
         Pokemon bulbasaur = new Pokemon("Bulbasaur", 5);
@@ -21,6 +21,15 @@ public class GameManager : MonoBehaviour
         Pokemon charmander = new Pokemon("Charmander", 5);
         enemyTrainer.AddPokemon(charmander);
     }
-    
-    
+
+
+    public void InitializeManager()
+    {
+        Application.targetFrameRate = 30;
+        
+        MoveManager.Instance.InitializeManager();
+        PokemonManager.Instance.InitializeManager();
+        
+        
+    }
 }

@@ -2,7 +2,7 @@
 
 using UnityEngine;
 
-public abstract class Manager<T> : MonoBehaviour where T : Manager<T>
+public abstract class MonoSingleton<T> : MonoBehaviour where T : MonoSingleton<T>
 {
     private static T instance;
     
@@ -18,6 +18,4 @@ public abstract class Manager<T> : MonoBehaviour where T : Manager<T>
             return instance;
         }
     }
-
-    public abstract void InitializeManager();
 }

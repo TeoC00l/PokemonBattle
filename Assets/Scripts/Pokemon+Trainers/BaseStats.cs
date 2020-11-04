@@ -12,5 +12,4 @@ public class BaseStats : ScriptableObject
     public int baseSpecial;
     
     public PokemonType pokemonType;
-
 }

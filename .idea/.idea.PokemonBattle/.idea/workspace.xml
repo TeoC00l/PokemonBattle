@@ -11,12 +11,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Calculations.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PokemonSprites.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Trainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/IManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -26,16 +25,25 @@
         <option value="$PROJECT_DIR$/Assets/Pokemon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PokemonSprites.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BaseStats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Calculations.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Trainer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Manager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/PokemonManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Manager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/MoveManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/PokemonManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BaseStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/IManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structure classes/StateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/AttackState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/BattleManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/StateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" />
       </list>
     </option>
   </component>
@@ -81,6 +89,7 @@
       <workItem from="1604052705494" duration="11105000" />
       <workItem from="1604308105681" duration="10479000" />
       <workItem from="1604398068183" duration="6190000" />
+      <workItem from="1604491255409" duration="10939000" />
     </task>
     <servers />
   </component>

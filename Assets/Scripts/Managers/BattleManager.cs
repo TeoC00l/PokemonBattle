@@ -1,8 +1,9 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
-
-public class BattleManager
+public class BattleManager : IManager
 {
+    private Trainer player;
+    private Trainer enemy;
     private Pokemon playerCurrentPokemon;
     private Pokemon enemyCurrentPokemon;
 
@@ -10,5 +11,10 @@ public class BattleManager
     private void Attack(Pokemon Attacker, Pokemon Target, Move move)
     {
         
+    }
+
+    public void InitializeManager()
+    {
+        throw new System.NotImplementedException();
     }
 }

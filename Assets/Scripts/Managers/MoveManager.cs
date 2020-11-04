@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveManager : Manager<MoveManager>
+public class MoveManager : MonoSingleton<MoveManager>, IManager
 {
     private Dictionary<string, Move> moves = new Dictionary<string, Move>();
 
@@ -22,7 +22,7 @@ public class MoveManager : Manager<MoveManager>
         public Move move;
     }
 
-    public override void InitializeManager()
+    public void InitializeManager()
     {
         for (int i = 0; i < Instance.pokemonMoveKeyValuePairs.Length; i++)
         {

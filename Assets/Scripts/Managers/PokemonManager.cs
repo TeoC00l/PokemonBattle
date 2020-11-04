@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Assertions;
 
-public class PokemonManager : Manager<PokemonManager>
+public class PokemonManager :  MonoSingleton<PokemonManager>, IManager
 {
     private Dictionary<string, BaseStats> pokemonStats = new Dictionary<string, BaseStats>();
 
@@ -24,7 +24,7 @@ public class PokemonManager : Manager<PokemonManager>
         return pokemonStats[name];
     }
 
-    public override void InitializeManager()
+    public void InitializeManager()
     {
         for (int i = 0; i < PokemonBaseStatList.Length; i++)
         {

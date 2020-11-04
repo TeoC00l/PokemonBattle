@@ -5,7 +5,7 @@ public class Pokemon
     private string name;
     private int level;
 
-    private Move[] moves;
+    private Move[] moves = new Move[4];
     private PokemonType pokemonType;
     private Stats stats;
     private PokemonSprites sprites;

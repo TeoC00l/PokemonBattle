@@ -37,7 +37,7 @@ public class Stats
         attack = Calculations.CalculateStat(baseStats.baseAttack, level);
         defense = Calculations.CalculateStat(baseStats.baseDefense, level);
         speed = Calculations.CalculateStat(baseStats.baseSpeed, level);
-        speed = Calculations.CalculateStat(baseStats.baseSpecial, level);
+        special = Calculations.CalculateStat(baseStats.baseSpecial, level);
 
         ResetStats();
     }
