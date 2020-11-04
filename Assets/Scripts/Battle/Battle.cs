@@ -9,7 +9,7 @@ public class Battle : StateMachine
     
     public override void Initialize()
     {
-        states[0] = new StrategyState();
-        states[1] = new AttackState();
+        stateDictionary.Add(typeof(StrategyState), new StrategyState(this));
+        stateDictionary.Add(typeof(AttackState), new AttackState(this));
     }
 }

@@ -5,7 +5,6 @@ using System.Collections.Generic;
 
 public abstract class StateMachine
 {
-    protected State[] states;
     protected State currentState;
     protected Dictionary<Type, State> stateDictionary = new Dictionary<Type, State>();
     

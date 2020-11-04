@@ -39,9 +39,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Structure classes/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/BattleManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/AttackState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/BattleManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" />
       </list>
@@ -89,7 +89,8 @@
       <workItem from="1604052705494" duration="11105000" />
       <workItem from="1604308105681" duration="10479000" />
       <workItem from="1604398068183" duration="6190000" />
-      <workItem from="1604491255409" duration="10939000" />
+      <workItem from="1604491255409" duration="11296000" />
+      <workItem from="1604514768461" duration="55000" />
     </task>
     <servers />
   </component>
@@ -102,6 +103,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1604514556210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="236" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604514556210" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1604419939933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
