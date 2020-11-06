@@ -1,19 +1,77 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
-public class StrategyState : State
+using System;
+using PokemonBattle;
+
+public class StrategyState : State<Battle>
 {
-    public StrategyState(StateMachine owner) : base(owner)
+    private DataTable<IBattleInterfaceItem> attacks;
+    private DataTable<IBattleInterfaceItem> dataTables;
+
+    private DataTable<IBattleInterfaceItem> currentInterface;
+    public StrategyState(Battle owner) : base(owner)
     {
     }
 
     public override void Enter()
     {
-        throw new System.NotImplementedException();
+        attacks = owner.playerCurrentPokemon.GetAttackTable();
+        IBattleInterfaceItem[] battleInterfaces = new IBattleInterfaceItem[1];
+        battleInterfaces[0] = attacks;
+        dataTables = new DataTable<IBattleInterfaceItem>(2,2,battleInterfaces);
+
+        currentInterface = dataTables;
     }
 
-    public override void Update()
+    public override bool HandleCommand(InputCommand inputCommand)
     {
-        throw new System.NotImplementedException();
+        if (inputCommand == InputCommand.A)
+        {
+            
+        }
+        
+        else if (inputCommand == InputCommand.B)
+        {
+            
+        }
+        else
+        {
+            
+        }
+    }
+
+    public bool HandleAttackCommand(InputCommand inputCommand)
+    {
+        if (inputCommand == InputCommand.A)
+        {
+            
+        }
+        
+        else if (inputCommand == InputCommand.B)
+        {
+            
+        }
+        else
+        {
+            
+        }
+    }
+
+    private bool HandleMenuCommand(InputCommand inputCommand)
+    {
+        if (inputCommand == InputCommand.A)
+        {
+            
+        }
+        
+        else if (inputCommand == InputCommand.B)
+        {
+            
+        }
+        else
+        {
+            
+        }
     }
 
     public override void Exit()

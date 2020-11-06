@@ -1,10 +1,8 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
-using UnityEngine;
-
-public class AttackState : State
+public class AttackState : State<Battle>
 {
-    public AttackState(StateMachine owner) : base(owner)
+    public AttackState(Battle owner) : base(owner)
     {
     }
 
@@ -13,7 +11,7 @@ public class AttackState : State
         throw new System.NotImplementedException();
     }
 
-    public override void Update()
+    public override bool HandleCommand(InputCommand inputCommand)
     {
         throw new System.NotImplementedException();
     }

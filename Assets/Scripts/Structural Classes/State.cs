@@ -1,17 +1,19 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
-public abstract class State
-{
-    private StateMachine owner;
+using UnityEngine;
 
-    public State(StateMachine owner)
+public abstract class State<T> where T : StateMachine<T>
+{
+    protected T owner;
+
+    public State(T owner)
     {
         this.owner = owner;
     }
     
     public abstract void Enter();
     
-    public abstract void Update();
+    public abstract bool HandleCommand(InputCommand inputCommand);
     
     public abstract void Exit();
 }

@@ -8,8 +8,10 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Battle" t="Include">
+            <e p="Attack.cs" t="Include" />
             <e p="AttackState.cs" t="Include" />
             <e p="Battle.cs" t="Include" />
+            <e p="InputActionType.cs" t="Include" />
             <e p="StrategyState.cs" t="Include" />
           </e>
           <e p="Managers" t="Include">
@@ -30,6 +32,10 @@
             <e p="Trainer.cs" t="Include" />
           </e>
           <e p="Structural Classes" t="Include">
+            <e p="DataTable.cs" t="Include" />
+            <e p="IBattleInterfaceItem.cs" t="Include" />
+            <e p="InputAction.cs" t="Include" />
+            <e p="InputCommand.cs" t="Include" />
             <e p="MonoSingleton.cs" t="Include" />
             <e p="State.cs" t="Include" />
             <e p="StateMachine.cs" t="Include" />

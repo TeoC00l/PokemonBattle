@@ -2,23 +2,24 @@
 
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
-public abstract class StateMachine
+public abstract class StateMachine<T> where T : StateMachine<T>
 {
-    protected State currentState;
-    protected Dictionary<Type, State> stateDictionary = new Dictionary<Type, State>();
+    protected State<T> currentState;
+    protected Dictionary<Type, State<T>> stateDictionary = new Dictionary<Type, State<T>>();
     
     public abstract void Initialize();
 
-    public void Transition<T>() where T : State
+    public void Transition<StateType>() where StateType : State<T>
     {
         currentState.Exit();
         currentState = stateDictionary[typeof(T)];
         currentState.Enter();
     }
 
-    public void Update()
+    public bool HandleCommand(InputCommand inputCommand)
     {
-        currentState.Update();
+        return currentState.HandleCommand(inputCommand);
     }
 }

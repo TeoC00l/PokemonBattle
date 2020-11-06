@@ -10,11 +10,11 @@ public class Stats
     private int speed;
     private int special;
     
-    private int currentHP;
-    private int currentAttack;
-    private int currentDefense;
-    private int currentSpeed;
-    private int currentSpecial;
+    public int CurrentHP{ get; private set; }
+    public int CurrentAttack{ get; private set; }
+    public int CurrentDefense{ get; private set; }
+    public int CurrentSpeed{ get; private set; }
+    public int CurrentSpecial{ get; private set; }
 
     public Stats(BaseStats baseStats, int level)
     {
@@ -24,11 +24,11 @@ public class Stats
 
     public void ResetStats()
     {
-        currentHP = hp;
-        currentAttack = attack;
-        currentDefense = defense;
-        currentSpeed = speed;
-        currentSpecial = special;
+        CurrentHP = hp;
+        CurrentAttack = attack;
+        CurrentDefense = defense;
+        CurrentSpeed = speed;
+        CurrentSpecial = special;
     }
 
     public void SetStats(int level)

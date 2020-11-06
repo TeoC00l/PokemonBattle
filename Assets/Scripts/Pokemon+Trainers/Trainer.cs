@@ -36,7 +36,11 @@ public class Trainer
             Debug.LogError("TOO FEW POKEMON");
             return;
         }
-        
         //TODO: IMPLEMENT
+    }
+
+    public Pokemon GetPokemon(int index)
+    {
+        return pokemons[index];
     }
 }

@@ -11,10 +11,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/InputActionType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/Attack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleInterfaceItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/IManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -37,13 +41,29 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structure classes/StateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/BattleManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/AttackState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/Command.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Stats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Trainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/InputAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/InputActionTypes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputAction1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputActionDepreciated.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/InputActionType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputAction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputCommands.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/StateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleInterfaceItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/AttackState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/DataTable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/MenuItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Attack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Pokemon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" />
       </list>
     </option>
   </component>
@@ -57,6 +77,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -91,6 +112,9 @@
       <workItem from="1604398068183" duration="6190000" />
       <workItem from="1604491255409" duration="11296000" />
       <workItem from="1604514768461" duration="55000" />
+      <workItem from="1604572192916" duration="13002000" />
+      <workItem from="1604589157721" duration="8500000" />
+      <workItem from="1604653078033" duration="15636000" />
     </task>
     <servers />
   </component>
@@ -107,9 +131,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="236" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604514556210" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1604661348392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604661348392" />
+    <state x="106" y="-8" width="1893" height="1027" maximized="true" key="dock-window-1" timestamp="1604668338614">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="106" y="-8" width="1893" height="1027" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604668338614" />
+    <state x="1768" y="-10" width="1893" height="872" maximized="true" key="dock-window-2" timestamp="1604668693619">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1768" y="-10" width="1893" height="872" maximized="true" key="dock-window-2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604668693619" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1604419939933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604419939933" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604591449821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604591449821" />
   </component>
 </project>
