@@ -10,11 +10,11 @@ public class Stats
     private int speed;
     private int special;
     
-    public int CurrentHP{ get; private set; }
-    public int CurrentAttack{ get; private set; }
-    public int CurrentDefense{ get; private set; }
-    public int CurrentSpeed{ get; private set; }
-    public int CurrentSpecial{ get; private set; }
+    public int CurrentHP{ get; set; }
+    public int CurrentAttack{ get; set; }
+    public int CurrentDefense{ get; set; }
+    public int CurrentSpeed{ get; set; }
+    public int CurrentSpecial{ get; set; }
 
     public Stats(BaseStats baseStats, int level)
     {

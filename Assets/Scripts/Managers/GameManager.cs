@@ -6,10 +6,6 @@ public class GameManager : MonoSingleton<GameManager>, IManager
 {
     private Battle currentBattle;
 
-    public int actionValue;
-
-    private int noOfActions = 4;
-
     private void Awake()
     {
         InitializeManager();
@@ -42,42 +38,42 @@ public class GameManager : MonoSingleton<GameManager>, IManager
         PokemonManager.Instance.InitializeManager();
     }
 
-    public void HandleBattleAction(InputAction inputAction)
+    public void HandleBattleAction(InputCommand inputCommand)
     {
-        currentBattle.HandleCommand(inputAction);
+        currentBattle.HandleCommand(inputCommand);
     }
 
     private void HandleInput()
     {
         if (Input.GetKeyDown(KeyCode.A))
         {
-            HandleBattleAction(new InputAction(InputActionType.A));
+            HandleBattleAction(InputCommand.A);
         }
         
-        if (Input.GetKeyDown(KeyCode.B))
+        else if (Input.GetKeyDown(KeyCode.B))
         {
-            HandleBattleAction(new InputAction(InputActionType.B));
+            HandleBattleAction(InputCommand.B);
 
         }
         
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        else if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            HandleBattleAction(new InputAction(InputActionType.Up));
+            HandleBattleAction(InputCommand.Up);
         }
         
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            HandleBattleAction(new InputAction(InputActionType.Down));
+            HandleBattleAction(InputCommand.Down);
         }
         
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            HandleBattleAction(new InputAction(InputActionType.Left));
+            HandleBattleAction(InputCommand.Left);
         }
         
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            HandleBattleAction(new InputAction(InputActionType.Right));
+            HandleBattleAction(InputCommand.Right);
         }
     }
 }

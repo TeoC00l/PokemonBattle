@@ -68,10 +68,12 @@ namespace PokemonBattle
             if (row > noOfRows-1 || column > noOfColumns-1)
             {
                 return false;
-            }else if (row < 0 || column < 0)
+            }
+            else if (row < 0 || column < 0)
             {
                 return false;
-            }else if (table[row, column] == null)
+            }
+            else if (table[row, column] == null)
             {
                 return false;
             }

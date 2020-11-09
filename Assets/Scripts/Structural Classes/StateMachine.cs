@@ -2,7 +2,6 @@
 
 using System;
 using System.Collections.Generic;
-using UnityEngine;
 
 public abstract class StateMachine<T> where T : StateMachine<T>
 {
@@ -18,8 +17,8 @@ public abstract class StateMachine<T> where T : StateMachine<T>
         currentState.Enter();
     }
 
-    public bool HandleCommand(InputCommand inputCommand)
+    public void HandleCommand(InputCommand inputCommand)
     {
-        return currentState.HandleCommand(inputCommand);
+        currentState.HandleCommand(inputCommand);
     }
 }

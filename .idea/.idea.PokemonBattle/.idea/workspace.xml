@@ -11,12 +11,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/InputActionType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/AttackState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/ActionState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/Attack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleInterfaceItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/IObserver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/IManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -43,7 +45,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Structure classes/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/BattleManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/Command.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Trainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/InputAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/InputActionTypes.cs" />
@@ -51,19 +52,26 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputActionDepreciated.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/InputActionType.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputAction.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputCommands.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/StateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleInterfaceItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/AttackState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/DataTable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/MenuItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/DataTable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Attack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Pokemon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/StateMachine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/AttackState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Stats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/ActionState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/Observer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/Subject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IObserver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/ISubject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Pokemon.cs" />
       </list>
     </option>
   </component>
@@ -115,6 +123,7 @@
       <workItem from="1604572192916" duration="13002000" />
       <workItem from="1604589157721" duration="8500000" />
       <workItem from="1604653078033" duration="15636000" />
+      <workItem from="1604912977323" duration="18255000" />
     </task>
     <servers />
   </component>
@@ -127,26 +136,26 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1604514556210">
+    <state x="794" y="236" key="RiderGenerateDialog" timestamp="1604936379020">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="236" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604514556210" />
+    <state x="794" y="236" key="RiderGenerateDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604936379020" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1604661348392">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604661348392" />
-    <state x="106" y="-8" width="1893" height="1027" maximized="true" key="dock-window-1" timestamp="1604668338614">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="106" y="-8" width="1893" height="1027" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604668338614" />
-    <state x="1768" y="-10" width="1893" height="872" maximized="true" key="dock-window-2" timestamp="1604668693619">
+    <state x="1920" y="0" width="1893" height="1027" key="dock-window-1" timestamp="1604931457927">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="1768" y="-10" width="1893" height="872" maximized="true" key="dock-window-2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604668693619" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1604419939933">
+    <state x="1920" y="0" width="1893" height="1027" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604931457927" />
+    <state x="704" y="123" width="1893" height="872" key="dock-window-2" timestamp="1604913932472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604419939933" />
+    <state x="704" y="123" width="1893" height="872" key="dock-window-2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604913932472" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1604929269639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604929269639" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604591449821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

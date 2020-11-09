@@ -13,7 +13,7 @@ public abstract class State<T> where T : StateMachine<T>
     
     public abstract void Enter();
     
-    public abstract bool HandleCommand(InputCommand inputCommand);
+    public abstract void HandleCommand(InputCommand inputCommand);
     
     public abstract void Exit();
 }

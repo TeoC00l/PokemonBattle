@@ -1,13 +1,12 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
-using System;
 using PokemonBattle;
+using Random = UnityEngine.Random;
 
 public class StrategyState : State<Battle>
 {
     private DataTable<IBattleInterfaceItem> attacks;
-    private DataTable<IBattleInterfaceItem> dataTables;
-
+    private DataTable<IBattleInterfaceItem> actions;
     private DataTable<IBattleInterfaceItem> currentInterface;
     public StrategyState(Battle owner) : base(owner)
     {
@@ -17,65 +16,78 @@ public class StrategyState : State<Battle>
     {
         attacks = owner.playerCurrentPokemon.GetAttackTable();
         IBattleInterfaceItem[] battleInterfaces = new IBattleInterfaceItem[1];
+        actions = new DataTable<IBattleInterfaceItem>(2,2,battleInterfaces);
         battleInterfaces[0] = attacks;
-        dataTables = new DataTable<IBattleInterfaceItem>(2,2,battleInterfaces);
-
-        currentInterface = dataTables;
+        currentInterface = actions;
     }
 
-    public override bool HandleCommand(InputCommand inputCommand)
+    public override void HandleCommand(InputCommand inputCommand)
     {
         if (inputCommand == InputCommand.A)
         {
-            
+            ExecuteSelection();
         }
-        
-        else if (inputCommand == InputCommand.B)
+        else if(inputCommand == InputCommand.B)
         {
-            
+            currentInterface = actions;
         }
         else
         {
-            
+            currentInterface.Navigate(inputCommand);
+        }
+
+        UpdateView();
+    }
+
+    public void ExecuteSelection()
+    {
+        IBattleInterfaceItem item = currentInterface.ConfirmSelection();
+
+        if (item is Attack attack)
+        {
+            HandleAttackCommand(attack);
+        }
+        else if (item is DataTable<IBattleInterfaceItem> table)
+        {
+            HandleMenuCommand(table);
         }
     }
 
-    public bool HandleAttackCommand(InputCommand inputCommand)
+    public void HandleAttackCommand(Attack attack)
     {
-        if (inputCommand == InputCommand.A)
-        {
-            
-        }
+        owner.battleActions.AddFirst(attack);
+        Attack enemyAttack = GetEnemyAttack();
         
-        else if (inputCommand == InputCommand.B)
+        if (enemyAttack.speed > attack.speed)
         {
-            
+            owner.battleActions.AddFirst(enemyAttack);
         }
         else
         {
-            
+            owner.battleActions.AddLast(enemyAttack);
         }
+
+        owner.Transition<ActionState>();
     }
 
-    private bool HandleMenuCommand(InputCommand inputCommand)
+    public Attack GetEnemyAttack()
     {
-        if (inputCommand == InputCommand.A)
-        {
-            
-        }
-        
-        else if (inputCommand == InputCommand.B)
-        {
-            
-        }
-        else
-        {
-            
-        }
+        Pokemon enemyPokemon = owner.enemyCurrentPokemon;
+        int moveIndex = Random.Range(0, enemyPokemon.GetNoOfMoves());
+        return enemyPokemon.GetAttack(moveIndex);
+    }
+
+    private void HandleMenuCommand(DataTable<IBattleInterfaceItem> table)
+    {
+        currentInterface = table;
+    }
+    
+    
+    public void UpdateView()
+    {
     }
 
     public override void Exit()
     {
-        throw new System.NotImplementedException();
     }
 }
