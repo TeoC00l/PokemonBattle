@@ -20,7 +20,7 @@ public class Battle : StateMachine<Battle>
     }
 
     public override void Initialize()
-    {
+    {    
         stateDictionary.Add(typeof(StrategyState), new StrategyState(this));
         stateDictionary.Add(typeof(ActionState), new ActionState(this));
 

@@ -1,7 +1,5 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
-using UnityEngine;
-
 public abstract class State<T> where T : StateMachine<T>
 {
     protected T owner;
