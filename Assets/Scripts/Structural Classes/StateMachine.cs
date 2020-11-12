@@ -7,7 +7,7 @@ public abstract class StateMachine<T> where T : StateMachine<T>
 {
     protected State<T> currentState;
     protected Dictionary<Type, State<T>> stateDictionary = new Dictionary<Type, State<T>>();
-    
+
     public abstract void Initialize();
 
     public void Transition<StateType>() where StateType : State<T>

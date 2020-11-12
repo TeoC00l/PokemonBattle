@@ -1,6 +1,7 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
 using System.Collections.Generic;
+using UnityEngine;
 
 public class Battle : StateMachine<Battle>
 {
@@ -25,8 +26,19 @@ public class Battle : StateMachine<Battle>
         stateDictionary.Add(typeof(ActionState), new ActionState(this));
 
         playerCurrentPokemon = player.GetPokemon(0);
+        Debug.Log("Go " + playerCurrentPokemon.Name +"!");
+        
+        playerCurrentPokemon.OnFainted += OnPokemonFainted;
         enemyCurrentPokemon = enemy.GetPokemon(0);
-
+        Debug.Log("Go " + playerCurrentPokemon.Name +"!");
+        
         currentState = stateDictionary[typeof(StrategyState)];
+        currentState.Enter();
+    }
+
+    public void OnPokemonFainted(Pokemon pokemon)
+    {
+        Debug.Log(pokemon.Name + " has fainted.");
+        Debug.Log("...And  thus ends our pokemon experience, because the system has to be expanded upon.");
     }
 }

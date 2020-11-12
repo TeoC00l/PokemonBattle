@@ -1,5 +1,7 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
+using UnityEngine;
+
 namespace PokemonBattle
 {
     public class DataTable<T> : IBattleInterfaceItem
@@ -17,7 +19,7 @@ namespace PokemonBattle
             this.noOfRows = noOfRows;
             this.noOfColumns = noOfColumns;
     
-            table = new T[noOfRows, noOfColumns];
+            table = new T[noOfColumns, noOfRows];
             
             FillTable(t);
         }
@@ -54,6 +56,8 @@ namespace PokemonBattle
             
             row = newRowIndex;
             column = newColumnIndex;
+            
+            Debug.Log(">" + table[row,column]);
 
             return true;
         }
@@ -90,7 +94,7 @@ namespace PokemonBattle
             {
                 for (int j = 0; j < noOfRows; j++)
                 {
-                    table[j, i] = t[currentIndex];
+                    table[i, j] = t[currentIndex];
                     currentIndex++;
                 }
             }

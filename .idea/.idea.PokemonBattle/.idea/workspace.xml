@@ -56,22 +56,22 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputCommand.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleInterfaceItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/MenuItem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/DataTable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Attack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/AttackState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Stats.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/ActionState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/Observer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/Subject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/ISubject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Pokemon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Pokemon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/ActionState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/DataTable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" />
       </list>
     </option>
   </component>
@@ -125,6 +125,7 @@
       <workItem from="1604653078033" duration="15636000" />
       <workItem from="1604912977323" duration="18255000" />
       <workItem from="1605083128537" duration="4881000" />
+      <workItem from="1605170036832" duration="14499000" />
     </task>
     <servers />
   </component>
@@ -145,10 +146,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604661348392" />
-    <state x="0" y="0" width="1893" height="1027" key="dock-window-1" timestamp="1605092644333">
+    <state x="0" y="0" width="1893" height="1027" key="dock-window-1" timestamp="1605173793254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1893" height="1027" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605092644333" />
+    <state x="0" y="0" width="1893" height="1027" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605173793254" />
     <state x="704" y="123" width="1893" height="872" key="dock-window-2" timestamp="1604913932472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

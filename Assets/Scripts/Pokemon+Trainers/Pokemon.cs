@@ -1,13 +1,12 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
 using System;
+using UnityEngine;
 using DataTable = PokemonBattle.DataTable<IBattleInterfaceItem>;
 
 public class Pokemon : ISubject
 {
-    public bool isFainted = false;
-    
-    private string name;
+    public string Name { get; private set; } 
     private int level;
     private static int MAX_MOVES = 4;
 
@@ -16,11 +15,14 @@ public class Pokemon : ISubject
     private Stats stats;
     private PokemonSprites sprites;
 
+    public delegate void Fainted(Pokemon pokemon);
+    public event Fainted OnFainted;
+
     private Action observerActions;
     
     public Pokemon(string name, int level)
     {
-        this.name = name;
+        this.Name = name;
         this.level = level;
 
         stats = new Stats(PokemonManager.Instance.GetPokemonStats(name), level);
@@ -93,7 +95,7 @@ public class Pokemon : ISubject
 
     private void Faint()
     {
-        isFainted = true;
+        OnFainted?.Invoke(this);
     }
 
     public void registerObserver(IObserver observer)

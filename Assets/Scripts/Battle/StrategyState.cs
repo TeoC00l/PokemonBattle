@@ -1,6 +1,7 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
 using PokemonBattle;
+using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class StrategyState : State<Battle>
@@ -15,7 +16,7 @@ public class StrategyState : State<Battle>
     public override void Enter()
     {
         attacks = owner.playerCurrentPokemon.GetAttackTable();
-        IBattleInterfaceItem[] battleInterfaces = new IBattleInterfaceItem[1];
+        IBattleInterfaceItem[] battleInterfaces = new IBattleInterfaceItem[4];
         actions = new DataTable<IBattleInterfaceItem>(2,2,battleInterfaces);
         battleInterfaces[0] = attacks;
         currentInterface = actions;
@@ -29,6 +30,7 @@ public class StrategyState : State<Battle>
         }
         else if(inputCommand == InputCommand.B)
         {
+            Debug.Log("Main menu");
             currentInterface = actions;
         }
         else
@@ -45,10 +47,12 @@ public class StrategyState : State<Battle>
 
         if (item is Attack attack)
         {
+            Debug.Log("Attack executed");
             HandleAttackCommand(attack);
         }
         else if (item is DataTable<IBattleInterfaceItem> table)
         {
+            Debug.Log("Attack selected");
             HandleMenuCommand(table);
         }
     }

@@ -39,6 +39,7 @@ public class ActionState : State<Battle>
     public override void Exit()
     {
         UpdateView();
+        owner.battleActions.RemoveFirst();
     }
 
     public void ExecuteBattleAction()
