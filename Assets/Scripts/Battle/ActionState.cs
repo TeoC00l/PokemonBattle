@@ -1,5 +1,7 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
+using UnityEngine;
+
 public class ActionState : State<Battle>
 {
     private IBattleAction currentAction;
@@ -13,9 +15,25 @@ public class ActionState : State<Battle>
 
     public override void Enter()
     {
+        Debug.Log("Entered Action State");
         currentAction = owner.battleActions.First.Value;
         playerPokemon = owner.playerCurrentPokemon;
         enemyPokemon = owner.enemyCurrentPokemon;
+        
+        ExecuteBattleAction();
+        owner.battleActions.Remove(currentAction);
+
+        if (owner.battleActions.Count == 0)
+        {
+            owner.Transition<StrategyState>();
+        }
+        else
+        {
+            owner.Transition<ActionState>();
+        }
+        
+        
+        //TODO: Implement end battle state
     }
 
     public override void HandleCommand(InputCommand inputCommand)
@@ -38,7 +56,6 @@ public class ActionState : State<Battle>
 
     public override void Exit()
     {
-        UpdateView();
         owner.battleActions.RemoveFirst();
     }
 
@@ -48,7 +65,6 @@ public class ActionState : State<Battle>
         {
             ExecuteAttack(attack);
         }
-
     }
 
     public void ExecuteAttack(Attack attack)
@@ -63,10 +79,8 @@ public class ActionState : State<Battle>
         {
             target = playerPokemon;
         }
-    }
-
-    public void UpdateView()
-    {
         
+        Debug.Log(attack.attacker + " used " + attack.name + ".");
+        target.RecieveAttack(attack);
     }
 }

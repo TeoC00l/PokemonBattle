@@ -34,7 +34,7 @@ public class Pokemon : ISubject
     public Attack GetAttack(int moveIndex)
     {
         Move move = moves[moveIndex];
-        return new Attack(move.power, move.accuracy, stats.CurrentSpeed, move.damageType, this);
+        return new Attack(move.name, move.power, move.accuracy, stats.CurrentSpeed, move.damageType, this);
     }
 
     private bool AddMove(Move move)

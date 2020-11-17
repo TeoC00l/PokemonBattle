@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Trainer
 {
-    private string name;
+    public string Name { get; private set; }
     private Pokemon[] pokemons = new Pokemon[5];
     public int NoOfPokemon {private set; get; }
 
@@ -13,7 +13,7 @@ public class Trainer
 
     public Trainer(string name)
     {
-        name = this.name;
+        Name = name;
         NoOfPokemon = default;
     }
     

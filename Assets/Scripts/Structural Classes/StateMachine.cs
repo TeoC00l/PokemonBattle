@@ -13,7 +13,7 @@ public abstract class StateMachine<T> where T : StateMachine<T>
     public void Transition<StateType>() where StateType : State<T>
     {
         currentState.Exit();
-        currentState = stateDictionary[typeof(T)];
+        currentState = stateDictionary[typeof(StateType)];
         currentState.Enter();
     }
 

@@ -26,11 +26,11 @@ public class Battle : StateMachine<Battle>
         stateDictionary.Add(typeof(ActionState), new ActionState(this));
 
         playerCurrentPokemon = player.GetPokemon(0);
-        Debug.Log("Go " + playerCurrentPokemon.Name +"!");
+        Debug.Log(player.Name + ": 'Go " + playerCurrentPokemon.Name +"!'");
         
         playerCurrentPokemon.OnFainted += OnPokemonFainted;
         enemyCurrentPokemon = enemy.GetPokemon(0);
-        Debug.Log("Go " + playerCurrentPokemon.Name +"!");
+        Debug.Log(enemy.Name + ": 'Go " + enemyCurrentPokemon.Name +"!'");
         
         currentState = stateDictionary[typeof(StrategyState)];
         currentState.Enter();
