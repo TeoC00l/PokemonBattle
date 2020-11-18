@@ -2,7 +2,8 @@
 
 public struct Attack: IBattleInterfaceItem, IBattleAction
 {
-    public string name;
+    
+    public string Name { get; set; }
     public int damage;
     public int accuracy;
     public int speed;
@@ -11,11 +12,12 @@ public struct Attack: IBattleInterfaceItem, IBattleAction
 
     public Attack(string name, int damage, int accuracy, int speed, PokemonType damageType, Pokemon attacker)
     {
-        this.name = name;
+        Name = name;
         this.damage = damage;
         this.accuracy = accuracy;
         this.speed = speed;
         this.damageType = damageType;
         this.attacker = attacker;
     }
+
 }

@@ -28,7 +28,7 @@ public class Pokemon : ISubject
         stats = new Stats(PokemonManager.Instance.GetPokemonStats(name), level);
 
         moves = new Move[1];
-        moves[0] = MoveManager.Instance.Move("Tackle");
+        moves[0] = MoveManager.Instance.Move("tackle");
     }
 
     public Attack GetAttack(int moveIndex)
@@ -73,7 +73,7 @@ public class Pokemon : ISubject
             attacks[i] = (IBattleInterfaceItem) GetAttack(i);
         }
 
-        DataTable attackTable = new DataTable(2, 2, attacks);
+        DataTable attackTable = new DataTable("attack",2, 2, attacks);
 
         return attackTable;
     }

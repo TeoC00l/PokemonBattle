@@ -15,48 +15,12 @@ public class ActionState : State<Battle>
 
     public override void Enter()
     {
-        Debug.Log("Entered Action State");
         currentAction = owner.battleActions.First.Value;
         playerPokemon = owner.playerCurrentPokemon;
         enemyPokemon = owner.enemyCurrentPokemon;
         
         ExecuteBattleAction();
-        owner.battleActions.Remove(currentAction);
-
-        if (owner.battleActions.Count == 0)
-        {
-            owner.Transition<StrategyState>();
-        }
-        else
-        {
-            owner.Transition<ActionState>();
-        }
-        
-        
-        //TODO: Implement end battle state
-    }
-
-    public override void HandleCommand(InputCommand inputCommand)
-    {
-        ExecuteBattleAction();
-        owner.battleActions.Remove(currentAction);
-
-        if (owner.battleActions.Count == 0)
-        {
-            owner.Transition<StrategyState>();
-        }
-        else
-        {
-            owner.Transition<ActionState>();
-        }
-        
-        
-        //TODO: Implement end battle state
-    }
-
-    public override void Exit()
-    {
-        owner.battleActions.RemoveFirst();
+        Transition();
     }
 
     public void ExecuteBattleAction()
@@ -64,6 +28,21 @@ public class ActionState : State<Battle>
         if (currentAction is Attack attack)
         {
             ExecuteAttack(attack);
+        }
+        
+        owner.battleActions.RemoveFirst();
+    }
+
+    public void Transition()
+    {
+        
+        if (owner.battleActions.Count == 0)
+        {
+            owner.Transition<StrategyState>();
+        }
+        else
+        {
+            owner.Transition<ActionState>();
         }
     }
 
@@ -80,7 +59,17 @@ public class ActionState : State<Battle>
             target = playerPokemon;
         }
         
-        Debug.Log(attack.attacker + " used " + attack.name + ".");
+        Debug.Log(attack.attacker.Name + " used " + attack.Name + ".");
         target.RecieveAttack(attack);
     }
+    
+    
+    public override void HandleCommand(InputCommand inputCommand)
+    {
+    }
+
+    public override void Exit()
+    {
+    }
+
 }

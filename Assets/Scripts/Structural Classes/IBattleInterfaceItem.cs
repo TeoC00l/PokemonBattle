@@ -2,4 +2,5 @@
 
 public interface IBattleInterfaceItem
 {
+    string Name { get; set; }
 }

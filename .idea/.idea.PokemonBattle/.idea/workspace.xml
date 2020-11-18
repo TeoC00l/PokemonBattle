@@ -53,7 +53,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputCommands.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputCommand.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleInterfaceItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/MenuItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/AttackState.cs" />
@@ -66,12 +65,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Trainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/DataTable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/StateMachine.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleInterfaceItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Attack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Pokemon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Move.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/ActionState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/DataTable.cs" />
       </list>
     </option>
   </component>
@@ -127,6 +128,7 @@
       <workItem from="1605083128537" duration="4881000" />
       <workItem from="1605170036832" duration="14499000" />
       <workItem from="1605619286260" duration="8045000" />
+      <workItem from="1605690076491" duration="6954000" />
     </task>
     <servers />
   </component>
@@ -147,6 +149,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604661348392" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1605695670118">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605695670118" />
     <state x="2060" y="-7" width="1893" height="985" maximized="true" key="dock-window-1" timestamp="1605626432808">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -163,5 +169,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604591449821" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs</url>
+          <line>44</line>
+          <properties documentPath="C:\Users\Teodor.Tysklind\Documents\GitHub\PokemonBattle\Assets\Scripts\Battle\StrategyState.cs" initialLine="44">
+            <startOffsets>
+              <option value="1266" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1267" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

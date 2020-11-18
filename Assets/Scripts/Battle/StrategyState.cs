@@ -18,9 +18,11 @@ public class StrategyState : State<Battle>
         attacks = owner.playerCurrentPokemon.GetAttackTable();
         IBattleInterfaceItem[] battleInterfaces = new IBattleInterfaceItem[4];
         battleInterfaces[0] = attacks;
-        menuActions = new DataTable<IBattleInterfaceItem>(2,2,battleInterfaces);
+        menuActions = new DataTable<IBattleInterfaceItem>("Main",2,2,battleInterfaces);
         
         EnterActionMenuSubState();
+        currentInterface.PrintTable();
+
     }
 
     public override void HandleCommand(InputCommand inputCommand)
@@ -28,6 +30,7 @@ public class StrategyState : State<Battle>
         if (inputCommand == InputCommand.A)
         {
             ExecuteSelection();
+            return;
         }
         else if(inputCommand == InputCommand.B)
         {
@@ -37,6 +40,8 @@ public class StrategyState : State<Battle>
         {
             currentInterface.Navigate(inputCommand);
         }
+        
+        currentInterface.PrintTable();
     }
 
     public void ExecuteSelection()
@@ -45,13 +50,14 @@ public class StrategyState : State<Battle>
 
         if (item is Attack attack)
         {
-            Debug.Log("Attack selected");
+            Debug.Log(attack.Name +  " selected");
             HandleAttackCommand(attack);
         }
         else if (item is DataTable<IBattleInterfaceItem> table)
         {
             EnterAttackMenuSubState(table);
         }
+        
     }
 
     public void HandleAttackCommand(Attack attack)
@@ -80,7 +86,7 @@ public class StrategyState : State<Battle>
 
     private void EnterAttackMenuSubState(DataTable<IBattleInterfaceItem> table)
     {
-        Debug.Log("Attack substate entered");
+        Debug.Log("Select an attack");
         currentInterface = table;
     }
 
