@@ -39,6 +39,6 @@ public class Battle : StateMachine<Battle>
     public void OnPokemonFainted(Pokemon pokemon)
     {
         Debug.Log(pokemon.Name + " has fainted.");
-        Debug.Log("...And  thus ends our pokemon experience, because the system has to be expanded upon.");
+        
     }
 }

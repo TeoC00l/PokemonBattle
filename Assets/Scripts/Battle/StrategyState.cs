@@ -21,8 +21,6 @@ public class StrategyState : State<Battle>
         menuActions = new DataTable<IBattleInterfaceItem>("Main",2,2,battleInterfaces);
         
         EnterActionMenuSubState();
-        currentInterface.PrintTable();
-
     }
 
     public override void HandleCommand(InputCommand inputCommand)
@@ -88,12 +86,14 @@ public class StrategyState : State<Battle>
     {
         Debug.Log("Select an attack");
         currentInterface = table;
+        currentInterface.PrintTable();
     }
 
     public void EnterActionMenuSubState()
     {
         Debug.Log(("Select a menu option"));
         currentInterface = menuActions;
+        currentInterface.PrintTable();
     }
 
     public override void Exit()

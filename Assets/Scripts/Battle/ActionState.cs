@@ -38,6 +38,8 @@ public class ActionState : State<Battle>
         
         if (owner.battleActions.Count == 0)
         {
+            Debug.Log(owner.playerCurrentPokemon.Name + " hp: " + owner.playerCurrentPokemon.Stats.CurrentHP);
+            Debug.Log(owner.enemyCurrentPokemon.Name + " hp: " + owner.enemyCurrentPokemon.Stats.CurrentHP);
             owner.Transition<StrategyState>();
         }
         else

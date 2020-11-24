@@ -11,6 +11,7 @@
             <e p="ActionState.cs" t="Include" />
             <e p="Attack.cs" t="Include" />
             <e p="Battle.cs" t="Include" />
+            <e p="EndBattleState.cs" t="Include" />
             <e p="InputActionType.cs" t="Include" />
             <e p="StrategyState.cs" t="Include" />
           </e>

@@ -12,7 +12,7 @@ public class Pokemon : ISubject
 
     private Move[] moves;
     private PokemonType pokemonType;
-    private Stats stats;
+    public Stats Stats { get; private set; }
     private PokemonSprites sprites;
 
     public delegate void Fainted(Pokemon pokemon);
@@ -25,7 +25,7 @@ public class Pokemon : ISubject
         this.Name = name;
         this.level = level;
 
-        stats = new Stats(PokemonManager.Instance.GetPokemonStats(name), level);
+        Stats = new Stats(PokemonManager.Instance.GetPokemonStats(name), level);
 
         moves = new Move[1];
         moves[0] = MoveManager.Instance.Move("tackle");
@@ -34,7 +34,7 @@ public class Pokemon : ISubject
     public Attack GetAttack(int moveIndex)
     {
         Move move = moves[moveIndex];
-        return new Attack(move.name, move.power, move.accuracy, stats.CurrentSpeed, move.damageType, this);
+        return new Attack(move.name, move.power, move.accuracy, Stats.CurrentSpeed, move.damageType, this);
     }
 
     private bool AddMove(Move move)
@@ -85,9 +85,9 @@ public class Pokemon : ISubject
 
     private void TakeDamage(int damage)
     {
-        stats.CurrentHP -= damage;
+        Stats.CurrentHP -= damage;
 
-        if (stats.CurrentHP <= 0)
+        if (Stats.CurrentHP <= 0)
         {
             Faint();
         }
