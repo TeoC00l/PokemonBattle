@@ -41,11 +41,13 @@
             <e p="IObserver.cs" t="Include" />
             <e p="ISubject.cs" t="Include" />
             <e p="MonoSingleton.cs" t="Include" />
+            <e p="SerializeableDictionary.cs" t="Include" />
             <e p="State.cs" t="Include" />
             <e p="StateMachine.cs" t="Include" />
           </e>
           <e p="View" t="Include">
             <e p="BattleView.cs" t="Include" />
+            <e p="Menu.cs" t="Include" />
           </e>
         </e>
       </e>

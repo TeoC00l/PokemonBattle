@@ -18,11 +18,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/EndBattleState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/SerializeableDictionary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/ActionState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/Attack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleInterfaceItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/IManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -37,7 +39,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Trainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Manager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/MoveManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/PokemonManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/IManager.cs" />
@@ -64,7 +65,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IObserver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/ISubject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/StateMachine.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleInterfaceItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Attack.cs" />
@@ -76,6 +76,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/EndBattleState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Trainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/MoveManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/SerializeableDictionary.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/Menu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/View/BattleView.cs" />
       </list>
     </option>
@@ -134,7 +138,8 @@
       <workItem from="1605619286260" duration="8045000" />
       <workItem from="1605690076491" duration="11875000" />
       <workItem from="1605714847670" duration="128000" />
-      <workItem from="1606227744902" duration="2652000" />
+      <workItem from="1606227744902" duration="2847000" />
+      <workItem from="1606394099354" duration="7328000" />
     </task>
     <servers />
   </component>
@@ -159,7 +164,7 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605695670118" />
-    <state x="-456" y="-20" width="1893" height="889" maximized="true" key="dock-window-1" timestamp="1606228046961">
+    <state x="-456" y="-20" width="1893" height="889" maximized="true" key="dock-window-1" timestamp="1606407393447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-456" y="-20" width="1893" height="889" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605714975839" />

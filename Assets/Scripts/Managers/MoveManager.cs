@@ -15,8 +15,7 @@ public class MoveManager : MonoSingleton<MoveManager>, IManager
 
     [SerializeField] private PokemonMoveKeyValuePairs[] pokemonMoveKeyValuePairs = default;
 
-    [Serializable]
-    public struct PokemonMoveKeyValuePairs
+    [Serializable] public struct PokemonMoveKeyValuePairs
     {
         public string name;
         public Move move;

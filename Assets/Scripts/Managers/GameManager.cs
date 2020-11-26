@@ -1,5 +1,6 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
+using UnityEditor.Profiling;
 using UnityEngine;
 
 public class GameManager : MonoSingleton<GameManager>, IManager
@@ -36,6 +37,7 @@ public class GameManager : MonoSingleton<GameManager>, IManager
         
         MoveManager.Instance.InitializeManager();
         PokemonManager.Instance.InitializeManager();
+        BattleView.Instance.InitializeManager();
     }
 
     public void HandleBattleAction(InputCommand inputCommand)

@@ -817,7 +817,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &851228110
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -877,7 +877,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851228109}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -6, z: 2}
+  m_LocalPosition: {x: 0, y: -6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -912,12 +912,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f45eb5e10ed6c1940819c062b08cc7a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerObjectDefaultPosition: {x: 0, y: 0}
-  EnemyObjectDefaultPosition: {x: 0, y: 0}
-  PlayerHealthBar: {fileID: 0}
-  EnemyHealthBar: {fileID: 0}
-  DialogBox: {fileID: 0}
-  Cursor: {fileID: 0}
+  playerObjectDefaultPosition: {x: 0, y: 0}
+  playerHealthBarDefaultPosition: {x: 0, y: 0}
+  dialogBoxDefaultPosition: {x: 0, y: -6}
+  enemyObjectDefaultPosition: {x: 0, y: 0}
+  enemyHealthBarDefaultPosition: {x: 0, y: 0}
+  playerHealthBar: {fileID: 0}
+  enemyHealthBar: {fileID: 0}
+  dialogBox: {fileID: 21300000, guid: 4fe219cfe91ae6c41ac555a26b61867c, type: 3}
+  cursor: {fileID: 0}
 --- !u!4 &1078379379
 Transform:
   m_ObjectHideFlags: 0
