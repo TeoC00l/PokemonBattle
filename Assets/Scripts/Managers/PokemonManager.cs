@@ -7,17 +7,17 @@ using UnityEngine.Assertions;
 
 public class PokemonManager :  MonoSingleton<PokemonManager>, IManager
 {
-    private Dictionary<string, BaseStats> pokemonStats = new Dictionary<string, BaseStats>();
+    private Dictionary<string, PokemonData> pokemonStats = new Dictionary<string, PokemonData>();
 
     [SerializeField] private PokemonBaseStatKeyValuePairs[] PokemonBaseStatList = default;
     
     [Serializable] public struct PokemonBaseStatKeyValuePairs
     {
         public string name;
-        public BaseStats baseStats;
+        public PokemonData pokemonData;
     }
     
-    public BaseStats GetPokemonStats(string name)
+    public PokemonData GetPokemonStats(string name)
     {
         Assert.IsTrue(pokemonStats.ContainsKey(name));
 
@@ -28,7 +28,7 @@ public class PokemonManager :  MonoSingleton<PokemonManager>, IManager
     {
         for (int i = 0; i < PokemonBaseStatList.Length; i++)
         {
-            pokemonStats.Add(PokemonBaseStatList[i].name, PokemonBaseStatList[i].baseStats);
+            pokemonStats.Add(PokemonBaseStatList[i].name, PokemonBaseStatList[i].pokemonData);
         }
     }
 }

@@ -1,7 +1,6 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
 using System;
-using UnityEngine;
 using DataTable = PokemonBattle.DataTable<IBattleInterfaceItem>;
 
 public class Pokemon : ISubject
@@ -13,7 +12,6 @@ public class Pokemon : ISubject
     private Move[] moves;
     private PokemonType pokemonType;
     public Stats Stats { get; private set; }
-    private PokemonSprites sprites;
 
     public delegate void Fainted(Pokemon pokemon);
     public event Fainted OnFainted;

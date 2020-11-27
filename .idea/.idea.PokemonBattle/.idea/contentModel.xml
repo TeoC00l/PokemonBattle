@@ -23,10 +23,10 @@
             <e p="PokemonManager.cs" t="Include" />
           </e>
           <e p="Pokemon+Trainers" t="Include">
-            <e p="BaseStats.cs" t="Include" />
             <e p="Calculations.cs" t="Include" />
             <e p="Move.cs" t="Include" />
             <e p="Pokemon.cs" t="Include" />
+            <e p="PokemonData.cs" t="Include" />
             <e p="PokemonSprites.cs" t="Include" />
             <e p="PokemonType.cs" t="Include" />
             <e p="Stats.cs" t="Include" />
@@ -40,10 +40,13 @@
             <e p="InputCommand.cs" t="Include" />
             <e p="IObserver.cs" t="Include" />
             <e p="ISubject.cs" t="Include" />
+            <e p="IViewElement.cs" t="Include" />
+            <e p="IViewTextElement.cs" t="Include" />
             <e p="MonoSingleton.cs" t="Include" />
             <e p="SerializeableDictionary.cs" t="Include" />
             <e p="State.cs" t="Include" />
             <e p="StateMachine.cs" t="Include" />
+            <e p="ViewSpriteElement.cs" t="Include" />
           </e>
           <e p="View" t="Include">
             <e p="BattleView.cs" t="Include" />

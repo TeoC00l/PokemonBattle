@@ -2,7 +2,7 @@
 
 public class Stats
 {
-    private BaseStats baseStats;
+    private PokemonData _pokemonData;
 
     private int hp;
     private int attack;
@@ -16,9 +16,9 @@ public class Stats
     public int CurrentSpeed{ get; set; }
     public int CurrentSpecial{ get; set; }
 
-    public Stats(BaseStats baseStats, int level)
+    public Stats(PokemonData pokemonData, int level)
     {
-        this.baseStats = baseStats;
+        this._pokemonData = pokemonData;
         SetStats(level);
     }
 
@@ -33,11 +33,11 @@ public class Stats
 
     public void SetStats(int level)
     {
-        hp = Calculations.CalculateHP(baseStats.baseHP, level);
-        attack = Calculations.CalculateStat(baseStats.baseAttack, level);
-        defense = Calculations.CalculateStat(baseStats.baseDefense, level);
-        speed = Calculations.CalculateStat(baseStats.baseSpeed, level);
-        special = Calculations.CalculateStat(baseStats.baseSpecial, level);
+        hp = Calculations.CalculateHP(_pokemonData.baseHP, level);
+        attack = Calculations.CalculateStat(_pokemonData.baseAttack, level);
+        defense = Calculations.CalculateStat(_pokemonData.baseDefense, level);
+        speed = Calculations.CalculateStat(_pokemonData.baseSpeed, level);
+        special = Calculations.CalculateStat(_pokemonData.baseSpecial, level);
 
         ResetStats();
     }

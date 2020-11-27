@@ -3,8 +3,12 @@
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "PkmnBaseStats", menuName = "BaseStats")]
-public class BaseStats : ScriptableObject
+public class PokemonData : ScriptableObject
 {
+    public string name;
+    public Sprite frontSprite;
+    public Sprite backSprite;
+    
     public int baseHP;
     public int baseAttack;
     public int baseDefense;
