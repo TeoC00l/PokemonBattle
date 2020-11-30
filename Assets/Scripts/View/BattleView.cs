@@ -1,50 +1,64 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
 using UnityEngine;
+using UnityEngine.Assertions;
 
-public class BattleView : MonoSingleton<BattleView>, IManager
+public class BattleView
 {
-    [Header("Text")]
-    [SerializeField] private GameObject pkmnTextObjectPrefab;
-    [SerializeField] private Vector2 textSize;
-    [SerializeField] private Vector2 dialogBoxTextPosition;
-    [SerializeField] private Vector2 enemyPokemonNamePosition;
-    [SerializeField] private Vector2 playerPokemonNamePosition;
-    [SerializeField] private Vector2 playerLevelPosition;
-    [SerializeField] private Vector2 enemyLevelPosition;
-    
-    [Header("Default Positions")]
-    [SerializeField] private Vector2 playerObjectDefaultPosition;
-    [SerializeField] private Vector2 enemyObjectDefaultPosition;
-    [SerializeField] private Vector2 playerHealthBarDefaultPosition;
-    [SerializeField] private Vector2 enemyHealthBarDefaultPosition;
-    [SerializeField] private Vector2 dialogBoxDefaultPosition;
-    [SerializeField] private Vector2 overlayDefaultPosition;
+    private readonly BattleViewElements elements;
+    private readonly Battle battle;
 
-    [Header("Sprites")]
-    [SerializeField] private Sprite dialogBox;
-    [SerializeField] private Sprite cursor;
-    [SerializeField] private Sprite overlay;
+    private readonly Trainer player;
+    private readonly Trainer enemy;
+
+    private ViewSpriteElement currentPlayerObject;
+    private ViewSpriteElement currentEnemyObject;
     
-    private Sprite currentPlayerObjectSprite;
-    private Sprite currentEnemyObjectSprite;
-    private Sprite currentMenu;
-    private GameObject dialogBoxObject;
-    private GameObject overlayObject;
-    private GameObject canvasObject;
-    public void InitializeManager()
+    private ViewSpriteElement currentMenu;
+    private ViewSpriteElement dialogBoxObject;
+    private ViewSpriteElement overlayObject;
+    private ViewSpriteElement canvasObject;
+
+
+    public BattleView(Trainer player, Trainer enemy, Battle battle)
     {
-        dialogBoxObject = SetupSceneObject(dialogBox, dialogBoxDefaultPosition);
-        overlayObject = SetupSceneObject(overlay, overlayDefaultPosition);
-        canvasObject = GameObject.FindWithTag("MainCanvas");
+        Assert.IsNotNull(elements = GameManager.FindObjectOfType<BattleViewElements>());
+
+        this.player = player;
+        this.enemy = enemy;
+        this.battle = battle;
+        SetupElements();
+        
     }
 
-    private GameObject SetupSceneObject(Sprite sprite, Vector2 defaultPosition)
+    private void SetupElements()
     {
-        GameObject sceneObject = new GameObject();
-        sceneObject.AddComponent<SpriteRenderer>().sprite = sprite;
-        sceneObject.transform.position = defaultPosition;
+        currentPlayerObject = new ViewSpriteElement(elements.dialogBox, elements.playerObjectDefaultPosition);
+        currentEnemyObject = new ViewSpriteElement(elements.dialogBox, elements.enemyObjectDefaultPosition);
+        dialogBoxObject = new ViewSpriteElement(elements.dialogBox, elements.dialogBoxDefaultPosition);
+        overlayObject = new ViewSpriteElement(elements.overlay, elements.overlayDefaultPosition);
 
-        return sceneObject;
+        currentPlayerObject.SetActive = true;
+        currentEnemyObject.SetActive = true;
+        overlayObject.SetActive = true;
+        dialogBoxObject.SetActive = true;
+        
+        battle.OnPokemonDeployed += DeployPokemon;
     }
+
+    private void DeployPokemon(Pokemon pokemon)
+    {
+        if (pokemon.IdNo == player.IdNo && pokemon.OriginalTrainer == player.Name)
+        {
+            Debug.Log("YES");
+            currentPlayerObject.ChangeGraphic(pokemon.backSprite);
+        }
+        else
+        {
+            Debug.Log("ye");
+            currentEnemyObject.ChangeGraphic(pokemon.frontSprite);
+        }
+    }
+    
+    
 }

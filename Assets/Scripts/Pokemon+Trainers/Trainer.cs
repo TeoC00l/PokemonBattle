@@ -1,10 +1,12 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
 using Debug = UnityEngine.Debug;
+using Random = UnityEngine.Random;
 
 public class Trainer
 {
     public string Name { get; private set; }
+    public int IdNo { get; private set; }
     private Pokemon[] pokemons = new Pokemon[5];
     public int NoOfPokemon {private set; get; }
     public int NoOfActivePokemon { private set; get; }
@@ -17,6 +19,7 @@ public class Trainer
         Name = name;
         NoOfPokemon = default;
         NoOfActivePokemon = default;
+        IdNo = Random.Range(0,10000);
     }
     
     public void AddPokemon(Pokemon pokemon)
@@ -27,10 +30,12 @@ public class Trainer
             return;
         }
 
+        pokemon.OriginalTrainer = Name;
+        pokemon.IdNo = IdNo;
+
         pokemons[NoOfPokemon] = pokemon;
         NoOfPokemon++;
         NoOfActivePokemon++;
-
     }
 
     public void RemovePokemon(Pokemon pokemon)
@@ -43,9 +48,9 @@ public class Trainer
         //TODO: IMPLEMENT
     }
 
-    public Pokemon GetPokemon(int index)
+    public Pokemon[] GetPokemon()
     {
-        return pokemons[index];
+        return pokemons;
     }
 
     public void OnPokemonFainted(Pokemon pokemon)

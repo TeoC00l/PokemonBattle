@@ -13,29 +13,21 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/InputActionType.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/IViewTextElement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/BattleView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/IObserver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/EndBattleState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/SerializeableDictionary.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/ViewSpriteElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/ActionState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/Attack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleInterfaceItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/IViewElement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/IManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Trainer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoveManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Manager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/PokemonManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BaseStats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/IManager.cs" />
@@ -56,7 +48,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/MenuItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleAction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/AttackState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/Observer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/Subject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IObserver.cs" />
@@ -70,19 +61,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/ActionState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/EndBattleState.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Trainer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/MoveManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/SerializeableDictionary.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/View/Menu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/ViewElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IViewElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IViewTextElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/ViewTextElement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/PokemonData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Pokemon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/ViewSpriteElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Trainer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/BattleViewElements.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/BattleViewElements.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/ViewSpriteElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Stats.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Pokemon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/View/BattleView.cs" />
       </list>
     </option>
@@ -144,6 +139,7 @@
       <workItem from="1606227744902" duration="2847000" />
       <workItem from="1606394099354" duration="7328000" />
       <workItem from="1606478206896" duration="8329000" />
+      <workItem from="1606737246979" duration="13219000" />
     </task>
     <servers />
   </component>
@@ -168,15 +164,15 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605695670118" />
-    <state x="62" y="-8" width="1893" height="889" maximized="true" key="dock-window-1" timestamp="1606494710930">
+    <state x="120" y="-24" width="1936" height="765" maximized="true" key="dock-window-1" timestamp="1606746881595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-456" y="-20" width="1893" height="889" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606478542199" />
-    <state x="62" y="-8" width="1893" height="889" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606494710930" />
-    <state x="704" y="123" width="1893" height="872" key="dock-window-2" timestamp="1604913932472">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="120" y="-24" width="1936" height="765" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606746881595" />
+    <state x="62" y="-8" width="1893" height="889" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606737714589" />
+    <state x="1920" y="0" width="1893" height="1027" key="dock-window-2" timestamp="1606748505677">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="704" y="123" width="1893" height="872" key="dock-window-2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604913932472" />
+    <state x="1920" y="0" width="1893" height="1027" key="dock-window-2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606748505677" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1604929269639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -17,6 +17,7 @@
           </e>
           <e p="Managers" t="Include">
             <e p="BattleManager.cs" t="Include" />
+            <e p="BattleViewElements.cs" t="Include" />
             <e p="GameManager.cs" t="Include" />
             <e p="IManager.cs" t="Include" />
             <e p="MoveManager.cs" t="Include" />
@@ -40,17 +41,16 @@
             <e p="InputCommand.cs" t="Include" />
             <e p="IObserver.cs" t="Include" />
             <e p="ISubject.cs" t="Include" />
-            <e p="IViewElement.cs" t="Include" />
-            <e p="IViewTextElement.cs" t="Include" />
             <e p="MonoSingleton.cs" t="Include" />
             <e p="SerializeableDictionary.cs" t="Include" />
             <e p="State.cs" t="Include" />
             <e p="StateMachine.cs" t="Include" />
-            <e p="ViewSpriteElement.cs" t="Include" />
           </e>
           <e p="View" t="Include">
             <e p="BattleView.cs" t="Include" />
-            <e p="Menu.cs" t="Include" />
+            <e p="IViewElement.cs" t="Include" />
+            <e p="IViewTextElement.cs" t="Include" />
+            <e p="ViewSpriteElement.cs" t="Include" />
           </e>
         </e>
       </e>

@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2c5ee3099aa87a4690febe91f8476c5, type: 3}
   m_Name: Charmander
   m_EditorClassIdentifier: 
+  name: Charmander
+  frontSprite: {fileID: 7540842467970222485, guid: 2ea17b4c476bc744cbe0bb0a0abb4920, type: 3}
+  backSprite: {fileID: 8336003229536274788, guid: 1f5baf90a4134584fb8fe8a700d638df, type: 3}
   baseHP: 49
   baseAttack: 52
   baseDefense: 43

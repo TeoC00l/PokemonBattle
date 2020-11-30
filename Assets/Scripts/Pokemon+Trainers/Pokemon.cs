@@ -1,12 +1,16 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
 using System;
+using UnityEngine;
 using DataTable = PokemonBattle.DataTable<IBattleInterfaceItem>;
 
 public class Pokemon : ISubject
 {
     public string Name { get; private set; } 
     private int level;
+    public int IdNo { get; set; }
+    public string OriginalTrainer { get; set; }
+
     private static int MAX_MOVES = 4;
 
     private Move[] moves;
@@ -16,6 +20,9 @@ public class Pokemon : ISubject
     public delegate void Fainted(Pokemon pokemon);
     public event Fainted OnFainted;
 
+    public Sprite frontSprite { get; private set; }
+    public Sprite backSprite { get; private set; }
+
     private Action observerActions;
     
     public Pokemon(string name, int level)
@@ -24,6 +31,8 @@ public class Pokemon : ISubject
         this.level = level;
 
         Stats = new Stats(PokemonManager.Instance.GetPokemonStats(name), level);
+        frontSprite = Stats.Data.frontSprite;
+        backSprite = Stats.Data.backSprite;
 
         moves = new Move[1];
         moves[0] = MoveManager.Instance.Move("tackle");

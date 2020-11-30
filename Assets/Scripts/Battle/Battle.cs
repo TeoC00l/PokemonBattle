@@ -10,14 +10,18 @@ public class Battle : StateMachine<Battle>
     public Pokemon playerCurrentPokemon;
     public Pokemon enemyCurrentPokemon;
 
+    private Pokemon[] playerPokemons;
+    private Pokemon[] enemyPokemons;
+
+    public delegate void PokemonDeployed(Pokemon pokemon);
+    public event PokemonDeployed OnPokemonDeployed;
+
     public LinkedList<IBattleAction> battleActions = new LinkedList<IBattleAction>();
 
     public Battle(Trainer player, Trainer enemy)
     {
         this.player = player;
         this.enemy = enemy;
-        
-        Initialize();
     }
 
     public override void Initialize()
@@ -25,12 +29,12 @@ public class Battle : StateMachine<Battle>
         stateDictionary.Add(typeof(StrategyState), new StrategyState(this));
         stateDictionary.Add(typeof(ActionState), new ActionState(this));
 
-        playerCurrentPokemon = player.GetPokemon(0);
-        Debug.Log(player.Name + ": 'Go " + playerCurrentPokemon.Name +"!'");
+        playerPokemons = player.GetPokemon();
+        DeployPokemon(playerPokemons[0]);
+        //playerCurrentPokemon.OnFainted += OnPokemonFainted;
         
-        playerCurrentPokemon.OnFainted += OnPokemonFainted;
-        enemyCurrentPokemon = enemy.GetPokemon(0);
-        Debug.Log(enemy.Name + ": 'Go " + enemyCurrentPokemon.Name +"!'");
+        enemyPokemons = enemy.GetPokemon();
+        DeployPokemon(enemyPokemons[0]);
         
         currentState = stateDictionary[typeof(StrategyState)];
         currentState.Enter();
@@ -39,6 +43,21 @@ public class Battle : StateMachine<Battle>
     public void OnPokemonFainted(Pokemon pokemon)
     {
         Debug.Log(pokemon.Name + " has fainted.");
+    }
+
+    public void DeployPokemon(Pokemon pokemon)
+    {
+        if (pokemon.IdNo == player.IdNo && pokemon.OriginalTrainer == player.Name)
+        {
+            playerCurrentPokemon = pokemon;
+            Debug.Log(player.Name + ": 'Go " + playerCurrentPokemon.Name +"!'");
+        }
+        else
+        {
+            enemyCurrentPokemon = pokemon;
+            Debug.Log(enemy.Name + ": 'Go " + enemyCurrentPokemon.Name +"!'");
+        }
         
+        OnPokemonDeployed?.Invoke(pokemon);
     }
 }
