@@ -26,7 +26,7 @@ public class ViewSpriteElement : IViewElement
     {
         GameObject graphicObject = new GameObject();
         renderer = graphicObject.AddComponent<SpriteRenderer>();
-        renderer.sprite = sprite;
+        ChangeGraphic(sprite);
     }
 
     public void ChangeGraphic(Sprite sprite)

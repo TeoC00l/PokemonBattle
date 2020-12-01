@@ -2,4 +2,6 @@
 
 public interface IViewElement
 {
+    bool SetActive { get; set; }
+
 }

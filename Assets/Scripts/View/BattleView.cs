@@ -19,6 +19,9 @@ public class BattleView
     private ViewSpriteElement overlayObject;
     private ViewSpriteElement canvasObject;
 
+    private ViewTextElement playerObjectNameText;
+    private ViewTextElement enemyObjectNameText;
+
 
     public BattleView(Trainer player, Trainer enemy, Battle battle)
     {
@@ -28,15 +31,16 @@ public class BattleView
         this.enemy = enemy;
         this.battle = battle;
         SetupElements();
-        
     }
 
     private void SetupElements()
     {
-        currentPlayerObject = new ViewSpriteElement(elements.dialogBox, elements.playerObjectDefaultPosition);
-        currentEnemyObject = new ViewSpriteElement(elements.dialogBox, elements.enemyObjectDefaultPosition);
+        currentPlayerObject = new ViewSpriteElement(null, elements.playerObjectDefaultPosition);
+        currentEnemyObject = new ViewSpriteElement(null, elements.enemyObjectDefaultPosition);
         dialogBoxObject = new ViewSpriteElement(elements.dialogBox, elements.dialogBoxDefaultPosition);
         overlayObject = new ViewSpriteElement(elements.overlay, elements.overlayDefaultPosition);
+        playerObjectNameText = new ViewTextElement("", elements.playerPokemonNamePosition);
+        enemyObjectNameText = new ViewTextElement("", elements.enemyPokemonNamePosition);
 
         currentPlayerObject.SetActive = true;
         currentEnemyObject.SetActive = true;
@@ -50,15 +54,23 @@ public class BattleView
     {
         if (pokemon.IdNo == player.IdNo && pokemon.OriginalTrainer == player.Name)
         {
-            Debug.Log("YES");
-            currentPlayerObject.ChangeGraphic(pokemon.backSprite);
+            UpdatePlayerElements(pokemon.Name, pokemon.backSprite);
         }
         else
         {
-            Debug.Log("ye");
-            currentEnemyObject.ChangeGraphic(pokemon.frontSprite);
+            UpdateEnemyElements(pokemon.Name, pokemon.frontSprite);
         }
     }
-    
-    
+
+    private void UpdatePlayerElements(string name, Sprite sprite)
+    {
+        currentPlayerObject.ChangeGraphic(sprite);
+        playerObjectNameText.ChangeText(name);
+    }
+
+    private void UpdateEnemyElements(string name, Sprite sprite)
+    {
+        currentEnemyObject.ChangeGraphic(sprite);
+        enemyObjectNameText.ChangeText(name);
+    }
 }
