@@ -50,6 +50,7 @@
             <e p="BattleView.cs" t="Include" />
             <e p="IViewElement.cs" t="Include" />
             <e p="IViewTextElement.cs" t="Include" />
+            <e p="ViewDataTable.cs" t="Include" />
             <e p="ViewSpriteElement.cs" t="Include" />
             <e p="ViewTextElement.cs" t="Include" />
           </e>

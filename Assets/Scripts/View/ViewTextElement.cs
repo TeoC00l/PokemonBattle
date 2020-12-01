@@ -7,6 +7,7 @@ public class ViewTextElement : IViewElement
 {
     private Text text;
     private BattleViewElements elements;
+    public Vector2 position;
 
     public bool SetActive
     {
@@ -18,10 +19,12 @@ public class ViewTextElement : IViewElement
     public ViewTextElement(string str, Vector2 position)
     {
         elements = BattleViewElements.Instance;
-        SetupTextElement(str, position);
+        this.position = position;
+        
+        SetupTextElement(str);
     }
 
-    private void SetupTextElement(string str, Vector2 position)
+    private void SetupTextElement(string str)
     {
         GameObject TextObject = CreateTextObject();
         TextObject.transform.SetParent(elements.canvas.transform);

@@ -11,23 +11,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/InputActionType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/Attack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2020.1.10f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Layout/CanvasScaler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/ActionState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/IManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/ViewDataTable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleAction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/View/ViewTextElement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/State.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/InputActionType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/IObserver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/Attack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleInterfaceItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Structural Classes/InputCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/IManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Move.cs" />
@@ -54,8 +55,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/IBattleInterfaceItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Attack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Move.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/DataTable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/ActionState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Battle/EndBattleState.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/MoveManager.cs" />
@@ -71,13 +70,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/View/BattleViewElements.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Stats.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pokemon+Trainers/Pokemon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/View/IViewElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/View/ViewSpriteElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/View/BattleView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/Battle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Battle/StrategyState.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Structural Classes/DataTable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/ViewDataTable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/BattleViewElements.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/BattleView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/View/ViewTextElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/ViewSpriteElement.cs" />
       </list>
     </option>
   </component>
@@ -140,7 +142,7 @@
       <workItem from="1606394099354" duration="7328000" />
       <workItem from="1606478206896" duration="8329000" />
       <workItem from="1606737246979" duration="13219000" />
-      <workItem from="1606807583379" duration="8570000" />
+      <workItem from="1606807583379" duration="27200000" />
     </task>
     <servers />
   </component>
@@ -165,23 +167,25 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1605695670118" />
-    <state x="369" y="-8" width="1402" height="1027" maximized="true" key="dock-window-1" timestamp="1606816216010">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="369" y="-8" width="1402" height="1027" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606816216010" />
-    <state x="120" y="-24" width="1936" height="765" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606746881595" />
-    <state x="62" y="-8" width="1893" height="889" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606737714589" />
-    <state x="1920" y="0" width="1893" height="1027" key="dock-window-2" timestamp="1606748505677">
+    <state x="2282" y="339" width="1402" height="1027" key="dock-window-1" timestamp="1606841297114">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2282" y="339" width="1402" height="1027" key="dock-window-1/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606841297114" />
+    <state x="120" y="-24" width="1936" height="765" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606746881595" />
+    <state x="62" y="-8" width="1893" height="889" maximized="true" key="dock-window-1/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1606737714589" />
+    <state x="1784" y="-13" width="1402" height="1027" maximized="true" key="dock-window-2" timestamp="1606855357258">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1784" y="-13" width="1402" height="1027" maximized="true" key="dock-window-2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606855357258" />
     <state x="1920" y="0" width="1893" height="1027" key="dock-window-2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1606748505677" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1604929269639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604929269639" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604591449821">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1606854085221">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1606854085221" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1604591449821" />
   </component>
 </project>

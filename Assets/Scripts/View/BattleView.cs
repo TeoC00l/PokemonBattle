@@ -1,5 +1,6 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
+using PokemonBattle;
 using UnityEngine;
 using UnityEngine.Assertions;
 
@@ -14,7 +15,7 @@ public class BattleView
     private ViewSpriteElement currentPlayerObject;
     private ViewSpriteElement currentEnemyObject;
     
-    private ViewSpriteElement currentMenu;
+    private ViewDataTable currentMenu;
     private ViewSpriteElement dialogBoxObject;
     private ViewSpriteElement overlayObject;
     private ViewSpriteElement canvasObject;
@@ -42,12 +43,8 @@ public class BattleView
         playerObjectNameText = new ViewTextElement("", elements.playerPokemonNamePosition);
         enemyObjectNameText = new ViewTextElement("", elements.enemyPokemonNamePosition);
 
-        currentPlayerObject.SetActive = true;
-        currentEnemyObject.SetActive = true;
-        overlayObject.SetActive = true;
-        dialogBoxObject.SetActive = true;
-        
         battle.OnPokemonDeployed += DeployPokemon;
+        battle.OnDataTableChanged += UpdateDataTableViewElements;
     }
 
     private void DeployPokemon(Pokemon pokemon)
@@ -72,5 +69,25 @@ public class BattleView
     {
         currentEnemyObject.ChangeGraphic(sprite);
         enemyObjectNameText.ChangeText(name);
+    }
+
+    private void UpdateDataTableViewElements(DataTable<IBattleInterfaceItem> dataTable)
+    {
+        if (currentMenu == null)
+        {
+            currentMenu = new ViewDataTable(dataTable, 1f,1f, elements.dialogBox, elements.actionMenuPosition);
+        }
+        else if (dataTable.Name == currentMenu.Name)
+        {
+            UpdateCursor(dataTable);
+            return;
+        }
+        
+        
+    }
+
+    private void UpdateCursor(DataTable<IBattleInterfaceItem> dataTable)
+    {
+        
     }
 }

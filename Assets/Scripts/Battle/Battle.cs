@@ -1,6 +1,7 @@
 ﻿//@Author: Teodor Tysklind / FutureGames / Teodor.Tysklind@FutureGames.nu
 
 using System.Collections.Generic;
+using PokemonBattle;
 using UnityEngine;
 
 public class Battle : StateMachine<Battle>
@@ -15,6 +16,9 @@ public class Battle : StateMachine<Battle>
 
     public delegate void PokemonDeployed(Pokemon pokemon);
     public event PokemonDeployed OnPokemonDeployed;
+
+    public delegate void DataTableChanged(DataTable<IBattleInterfaceItem> dataTable);
+    public event DataTableChanged OnDataTableChanged;
 
     public LinkedList<IBattleAction> battleActions = new LinkedList<IBattleAction>();
 
@@ -59,5 +63,10 @@ public class Battle : StateMachine<Battle>
         }
         
         OnPokemonDeployed?.Invoke(pokemon);
+    }
+
+    public void UpdateDataTable(DataTable<IBattleInterfaceItem> dataTable)
+    {
+        OnDataTableChanged?.Invoke(dataTable);
     }
 }

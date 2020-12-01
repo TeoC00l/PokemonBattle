@@ -7,23 +7,20 @@ namespace PokemonBattle
     public class DataTable<T> : IBattleInterfaceItem where T : IBattleInterfaceItem
     {
         public string Name { get; set; }
-
-        private int row = default;
-        private int column = default;
-
-        private int noOfRows;
-        private int noOfColumns;
-
-        private T[,] table;
+        public int NoOfRows { get; private set; }
+        public int NoOfColumns { get; private set; }
+        public int CursorRow { get; private set; }
+        public int CursorColumn { get; private set; }
+        public T[,] Table { get; private set; }
 
         public DataTable(string name, int noOfRows, int noOfColumns, T[] t)
         {
             Name = name;
 
-            this.noOfRows = noOfRows;
-            this.noOfColumns = noOfColumns;
+            this.NoOfRows = noOfRows;
+            this.NoOfColumns = noOfColumns;
 
-            table = new T[noOfColumns, noOfRows];
+            Table = new T[noOfColumns, noOfRows];
 
             FillTable(t);
         }
@@ -50,30 +47,30 @@ namespace PokemonBattle
                 rowDisplacement++;
             }
 
-            int newRowIndex = row + rowDisplacement;
-            int newColumnIndex = column + columnDisplacement;
+            int newRowIndex = CursorRow + rowDisplacement;
+            int newColumnIndex = CursorColumn + columnDisplacement;
 
             if (!CheckForNullIndex(newRowIndex, newColumnIndex))
             {
                 return false;
             }
 
-            row = newRowIndex;
-            column = newColumnIndex;
+            CursorRow = newRowIndex;
+            CursorColumn = newColumnIndex;
 
-            Debug.Log(">" + table[row, column]);
+            Debug.Log(">" + Table[CursorRow, CursorColumn]);
 
             return true;
         }
 
             public T ConfirmSelection()
             {
-                return table[row, column];
+                return Table[CursorRow, CursorColumn];
             }
 
             private bool CheckForNullIndex(int row, int column)
             {
-                if (row > noOfRows - 1 || column > noOfColumns - 1)
+                if (row > NoOfRows - 1 || column > NoOfColumns - 1)
                 {
                     return false;
                 }
@@ -81,7 +78,7 @@ namespace PokemonBattle
                 {
                     return false;
                 }
-                else if (table[row, column] == null)
+                else if (Table[row, column] == null)
                 {
                     return false;
                 }
@@ -92,13 +89,12 @@ namespace PokemonBattle
             private void FillTable(T[] t)
             {
                 int currentIndex = 0;
-                int tableSize = t.Length;
 
-                for (int i = 0; i < noOfColumns; i++)
+                for (int i = 0; i < NoOfColumns; i++)
                 {
-                    for (int j = 0; j < noOfRows; j++)
+                    for (int j = 0; j < NoOfRows; j++)
                     {
-                        table[i, j] = t[currentIndex];
+                        Table[i, j] = t[currentIndex];
                         currentIndex++;
                     }
                 }
@@ -111,21 +107,21 @@ namespace PokemonBattle
                 int strLength = 20;
                 int itemLength = 0;
 
-                for (int i = 0; i < noOfRows; i++)
+                for (int i = 0; i < NoOfRows; i++)
                 {
                     str += " ______________________";
                 }
                 str += "\n";
 
                 
-                for (int i = 0; i < noOfColumns; i++)
+                for (int i = 0; i < NoOfColumns; i++)
                 {
                     str += "|";
 
-                    for (int j = 0; j < noOfRows; j++)
+                    for (int j = 0; j < NoOfRows; j++)
                     {
                             
-                        if (column == i && row == j) 
+                        if (CursorColumn == i && CursorRow == j) 
                         {
                             item = ">";
 
@@ -135,9 +131,9 @@ namespace PokemonBattle
                              item = "_";
                         }
 
-                        if (table[j, i] != null)
+                        if (Table[j, i] != null)
                         {
-                            item += table[j, i].Name;
+                            item += Table[j, i].Name;
                             itemLength = item.Length;
                         }
                         else

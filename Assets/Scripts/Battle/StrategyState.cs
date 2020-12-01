@@ -94,6 +94,7 @@ public class StrategyState : State<Battle>
         Debug.Log(("Select a menu option"));
         currentInterface = menuActions;
         currentInterface.PrintTable();
+        owner.UpdateDataTable(currentInterface);
     }
 
     public override void Exit()

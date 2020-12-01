@@ -5,9 +5,9 @@ using UnityEngine;
 public class BattleViewElements : MonoSingleton<BattleViewElements>
 {
     [Header("Text")] 
-    public GameObject pkmnTextObjectPrefab;
     public Vector2 textSize;
     public Vector2 dialogBoxTextPosition;
+    public Vector2 actionMenuPosition;
     public Vector2 enemyPokemonNamePosition;
     public Vector2 playerPokemonNamePosition;
     public Vector2 playerLevelPosition;
