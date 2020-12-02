@@ -34,8 +34,11 @@ public class Pokemon : ISubject
         frontSprite = Stats.Data.frontSprite;
         backSprite = Stats.Data.backSprite;
 
-        moves = new Move[1];
+        moves = new Move[4];
         moves[0] = MoveManager.Instance.Move("tackle");
+        moves[1] = MoveManager.Instance.Move("tackle");
+        moves[2] = MoveManager.Instance.Move("tackle");
+        moves[3] = MoveManager.Instance.Move("tackle");
     }
 
     public Attack GetAttack(int moveIndex)

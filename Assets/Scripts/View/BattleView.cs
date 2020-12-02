@@ -23,7 +23,9 @@ public class BattleView
     private ViewTextElement playerObjectNameText;
     private ViewTextElement enemyObjectNameText;
 
-
+    private ViewHealthBar playerHealthBar;
+    private ViewHealthBar enemyHealthBar;
+    
     public BattleView(Trainer player, Trainer enemy, Battle battle)
     {
         Assert.IsNotNull(elements = GameManager.FindObjectOfType<BattleViewElements>());
@@ -40,8 +42,12 @@ public class BattleView
         currentEnemyObject = new ViewSpriteElement(null, elements.enemyObjectDefaultPosition);
         dialogBoxObject = new ViewSpriteElement(elements.dialogBox, elements.dialogBoxDefaultPosition);
         overlayObject = new ViewSpriteElement(elements.overlay, elements.overlayDefaultPosition);
+        
         playerObjectNameText = new ViewTextElement("", elements.playerPokemonNamePosition);
         enemyObjectNameText = new ViewTextElement("", elements.enemyPokemonNamePosition);
+        
+        playerHealthBar = new ViewHealthBar(1,1, elements.playerHealthBarDefaultPosition);
+        enemyHealthBar = new ViewHealthBar(1,1, elements.enemyHealthBarDefaultPosition);
 
         battle.OnPokemonDeployed += DeployPokemon;
         battle.OnDataTableChanged += UpdateDataTableViewElements;
@@ -64,7 +70,7 @@ public class BattleView
         currentPlayerObject.ChangeGraphic(sprite);
         playerObjectNameText.ChangeText(name);
     }
-
+    
     private void UpdateEnemyElements(string name, Sprite sprite)
     {
         currentEnemyObject.ChangeGraphic(sprite);
@@ -75,19 +81,24 @@ public class BattleView
     {
         if (currentMenu == null)
         {
-            currentMenu = new ViewDataTable(dataTable, 1f,1f, elements.dialogBox, elements.actionMenuPosition);
+            currentMenu = new ViewDataTable(dataTable, 5f,5f, elements.dialogBox, elements.actionMenuPosition, elements.menuPadding);
+            return;
         }
         else if (dataTable.Name == currentMenu.Name)
         {
             UpdateCursor(dataTable);
             return;
         }
-        
-        
+
+        //TODO: optimize
+        currentMenu.SetActive = false;
+        currentMenu = new ViewDataTable(dataTable, 40f,20f, elements.dialogBox, elements.actionMenuPosition, elements.menuPadding);
+
     }
 
     private void UpdateCursor(DataTable<IBattleInterfaceItem> dataTable)
     {
-        
+        Debug.Log("Here");
+        currentMenu.UpdateCursor(dataTable);
     }
 }

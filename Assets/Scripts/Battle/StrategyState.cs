@@ -37,6 +37,8 @@ public class StrategyState : State<Battle>
         else
         {
             currentInterface.Navigate(inputCommand);
+            owner.UpdateDataTable(currentInterface);
+
         }
         
         currentInterface.PrintTable();
@@ -87,6 +89,7 @@ public class StrategyState : State<Battle>
         Debug.Log("Select an attack");
         currentInterface = table;
         currentInterface.PrintTable();
+        owner.UpdateDataTable(currentInterface);
     }
 
     public void EnterActionMenuSubState()

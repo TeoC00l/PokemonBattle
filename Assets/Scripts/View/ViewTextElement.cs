@@ -36,18 +36,21 @@ public class ViewTextElement : IViewElement
     public void ChangeText(string str)
     {
         text.text = str;
+        text.rectTransform.localScale = Vector3.one;
     }
 
     private GameObject CreateTextObject()
     {
         GameObject textObject = new GameObject();
-        textObject.AddComponent<RectTransform>().pivot = new Vector2(0f,1f);
+        RectTransform rectTransform = textObject.AddComponent<RectTransform>();
+        rectTransform.localScale = Vector3.one;
+        rectTransform.pivot = new Vector2(0f,1f);
         text = textObject.AddComponent<Text>();
         text.font = elements.font;
         text.color = Color.black;
         text.fontSize = elements.fontSize;
         text.alignment = TextAnchor.UpperLeft;
-
+        text.rectTransform.localScale = Vector3.one;
         return textObject;
     }
 }

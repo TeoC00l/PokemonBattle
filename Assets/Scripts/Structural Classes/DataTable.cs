@@ -7,10 +7,11 @@ namespace PokemonBattle
     public class DataTable<T> : IBattleInterfaceItem where T : IBattleInterfaceItem
     {
         public string Name { get; set; }
-        public int NoOfRows { get; private set; }
         public int NoOfColumns { get; private set; }
-        public int CursorRow { get; private set; }
+        public int NoOfRows { get; private set; }
         public int CursorColumn { get; private set; }
+
+        public int CursorRow { get; private set; }
         public T[,] Table { get; private set; }
 
         public DataTable(string name, int noOfRows, int noOfColumns, T[] t)
@@ -32,19 +33,19 @@ namespace PokemonBattle
 
             if (inputCommand == InputCommand.Up)
             {
-                columnDisplacement--;
+                rowDisplacement--;
             }
             else if (inputCommand == InputCommand.Down)
             {
-                columnDisplacement++;
+                rowDisplacement++;
             }
             else if (inputCommand == InputCommand.Left)
             {
-                rowDisplacement--;
+                columnDisplacement--;
             }
             else if (inputCommand == InputCommand.Right)
             {
-                rowDisplacement++;
+                columnDisplacement++;
             }
 
             int newRowIndex = CursorRow + rowDisplacement;
@@ -58,7 +59,7 @@ namespace PokemonBattle
             CursorRow = newRowIndex;
             CursorColumn = newColumnIndex;
 
-            Debug.Log(">" + Table[CursorRow, CursorColumn]);
+            Debug.Log(">" + Table[CursorColumn, CursorRow]);
 
             return true;
         }
@@ -111,6 +112,7 @@ namespace PokemonBattle
                 {
                     str += " ______________________";
                 }
+                
                 str += "\n";
 
                 

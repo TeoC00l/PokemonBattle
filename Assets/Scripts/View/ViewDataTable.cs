@@ -25,35 +25,41 @@ public class ViewDataTable : IViewElement
 
             foreach (ViewTextElement textElement in textElements)
             {
-                textElement.SetActive = value;
+                if (textElement != null)
+                {
+                    textElement.SetActive = value;
+                }
             }
         }
     }
 
-    public ViewDataTable(DataTable<IBattleInterfaceItem> dataTable, float columnDistance, float rowDistance, Sprite overlaySprite, Vector2 position)
+    public ViewDataTable(DataTable<IBattleInterfaceItem> dataTable, float columnDistance, float rowDistance, Sprite overlaySprite, Vector2 position, int padding)
     {
         Name = dataTable.Name;
-        
+        elements = BattleViewElements.Instance;
         textElements = new ViewTextElement[dataTable.NoOfColumns,dataTable.NoOfRows];
 
-        DrawTable(dataTable, columnDistance, rowDistance, overlaySprite, position);
+        DrawTable(dataTable, columnDistance, rowDistance, overlaySprite, position,padding);
     }
 
-    private void DrawTable(DataTable<IBattleInterfaceItem> table, float columnDistance, float rowDistance, Sprite overlaySprite, Vector2 position)
+    private void DrawTable(DataTable<IBattleInterfaceItem> table, float columnDistance, float rowDistance, Sprite overlaySprite, Vector2 position, int padding)
     {
         positions = new Vector2[table.NoOfColumns,table.NoOfRows];
         
         IBattleInterfaceItem[,] interfaceItems = table.Table;
-        ViewSpriteElement overlayElement = new ViewSpriteElement(overlaySprite, position);
 
-        float x = position.x;
-        float y = position.y;
+        float x = position.x + padding;
+        float y = position.y -padding;
+        
+        overlay = new ViewSpriteElement(overlaySprite, position);
+        cursor = new ViewSpriteElement(elements.cursor, new Vector2(x,y) + elements.horizontalCursorDefaultOffset);
         
         for (int i = 0; i < table.NoOfColumns; i++)
         {
+            y = position.y -padding;
             x += columnDistance * i;
 
-            for (int j = 0; i < table.NoOfRows; i++)
+            for (int j = 0; j < table.NoOfRows; j++)
             {
                 y -= rowDistance * j;
                 Vector2 elementPosition = new Vector2(x,y);
@@ -64,5 +70,10 @@ public class ViewDataTable : IViewElement
                 }
             }
         }
+    }
+
+    public void UpdateCursor(DataTable<IBattleInterfaceItem> dataTable)
+    {
+        cursor.CurrentPosition = textElements[dataTable.CursorColumn, dataTable.CursorRow].position + elements.horizontalCursorDefaultOffset;
     }
 }
